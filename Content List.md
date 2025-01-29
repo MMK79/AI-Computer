@@ -5,3 +5,6 @@
 * [[Python Content List]]
 # Editor
 * [[VIM]]
+* [[NeoVim]]
+	* [[NeoVim#Kickstart Neovim|Kickstart TJ]]
+	* [[NeoVim#Primeagen-init.lua|Primeagen]]

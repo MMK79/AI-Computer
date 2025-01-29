@@ -227,3 +227,5 @@ $$Command\ \textcolor{red}{Count}\ Motion$$
  * You can delete the whole world from the inside by simply using `diw` if you want to delete everything that doesn't have whitespace you can simply use `diW`
  * To delete paragraphs you can use `dap` or `dip`
  * `=` auto indent base on rules
+ * `r` for replace things
+ * `Ctrl+v` multiple cursor

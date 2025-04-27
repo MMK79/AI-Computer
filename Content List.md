@@ -8,3 +8,7 @@
 * [[NeoVim]]
 	* [[NeoVim#Kickstart Neovim|Kickstart TJ]]
 	* [[NeoVim#Primeagen-init.lua|Primeagen]]
+# Artificial Intelligence
+## Machine Learning
+### Course
+* [[Abu Yaser-Mostafa Course Content List]]

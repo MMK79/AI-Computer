@@ -11,14 +11,12 @@
             "id": "c3641f6194536b8c",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "excalidraw",
               "state": {
-                "file": "Artificial Intelligence/Artificial Intelligence Content List.md",
-                "mode": "source",
-                "source": false
+                "file": "CS Concepts/Distributed System/Docker/Docker-Workflow.md"
               },
-              "icon": "lucide-file",
-              "title": "Artificial Intelligence Content List"
+              "icon": "excalidraw-icon",
+              "title": "Docker-Workflow"
             }
           },
           {
@@ -179,13 +177,19 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "d0890856a4ba7a7f",
+  "active": "c3641f6194536b8c",
   "lastOpenFiles": [
+    "CS Concepts/Distributed System/Docker/Difference-Between-VM-VE-Container.md",
+    "Content List.md",
+    "CS Concepts/Distributed System/Docker/Docker.md",
+    "Artificial Intelligence/Artificial Intelligence Content List.md",
+    "CS Concepts/Distributed System/Docker/Docker-Workflow.md",
+    "CS Concepts/Distributed System/Docker",
+    "CS Concepts/Distributed System",
+    "CS Concepts",
     "Artificial Intelligence/Machine Learning/Course/Yaser Abu-Mostafa - Caltech/Abu Yaser-Mostafa Course Content List.md",
     "Artificial Intelligence/Machine Learning/Course/Machine Learning Courses Content List.md",
     "Artificial Intelligence/Machine Learning/Machine Learning Content List.md",
-    "Artificial Intelligence/Artificial Intelligence Content List.md",
-    "Content List.md",
     "Artificial Intelligence/Machine Learning/Course/Yaser Abu-Mostafa - Caltech/Lecture-00/Lecture-00-Summery.canvas",
     "Artificial Intelligence/Machine Learning/Course/Yaser Abu-Mostafa - Caltech/Lecture-01/Lecture-01.md",
     "Artificial Intelligence/Machine Learning/Course/Yaser Abu-Mostafa - Caltech/Lecture-01/Lecture-01-Summery.canvas",
@@ -216,9 +220,6 @@
     "Artificial Intelligence/Computer/Tools/Programming/Python/Course/MIT 2022/Lecture-01/Lecture-01.canvas",
     "Artificial Intelligence/Computer/Tools/Programming/Python/Course/MIT 2022/Lecture-02/test.py",
     "Artificial Intelligence/Computer/Tools/Programming/Python/Course/MIT 2022/Lecture-01/Finger-Exersice.py",
-    "Artificial Intelligence/Computer/Tools/Programming/Python/Course/MIT 2022/Lecture-13/lecture-13.ipynb",
-    "Artificial Intelligence/Computer/Tools/Programming/Python/Course/MIT 2022/Lecture-12/lecture-12.ipynb",
-    "Artificial Intelligence/Computer/Tools/Programming/Python/Course/MIT 2022/Lecture-11/lecture-11.ipynb",
     "Artificial Intelligence/Computer/Tools/Programming/Python/Course/MIT 2022/Untitled.canvas",
     "Master/Thesis/Thesis References/GRAG/Peng/Peng.canvas",
     "Artificial Intelligence/Computer/Concept/Shell.md",
@@ -227,9 +228,6 @@
     "Artificial Intelligence/Computer/Tools/Programming/Editor/VIM-Fundamentals-Primeagen.md",
     "Artificial Intelligence/Computer/Tools/Programming/Advice.md",
     "Work/Linux Useful Commands.md",
-    "Content/How to Live a Life/How to Learn/How to Learn.md",
-    "Master/Thesis/Sessions/Other-Session.md",
-    "Content/How to Live a Life/How To Listen/Listen Like a Therapist.md",
     "Artificial Intelligence/Mathematics/Calculus/Course/MIT/ProblemSet + Solutions/PS-01/Attachments/different-type-of-symmetry.png",
     "Master/Thesis/attachments/StrangeLoopCanon-AI-IQtest.png",
     "Master/Thesis/attachments/Quality-&-Context-ArtificialAnalysis.png",

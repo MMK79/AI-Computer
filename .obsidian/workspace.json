@@ -11,12 +11,17 @@
             "id": "c3641f6194536b8c",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "canvas",
               "state": {
-                "file": "CS Concepts/Distributed System/Docker/Docker-Workflow.md"
+                "file": "Tools/Programming Language/Python/Course/MIT 2022/Lecture-02/Lecture-02.canvas",
+                "viewState": {
+                  "x": 921.2810990584258,
+                  "y": 177.53223700845848,
+                  "zoom": -1.2111191705187512
+                }
               },
-              "icon": "excalidraw-icon",
-              "title": "Docker-Workflow"
+              "icon": "lucide-layout-dashboard",
+              "title": "Lecture-02"
             }
           },
           {
@@ -179,11 +184,16 @@
   },
   "active": "c3641f6194536b8c",
   "lastOpenFiles": [
+    "CS Concepts/Distributed System/Docker/Docker-Workflow.md",
+    "Tools/Programming Language/Python/Course/MIT 2022/Lecture-02/lecture-02.ipynb",
+    "Tools/Programming Language/Python/Course/MIT 2022/Lecture-02/Indexing.md",
+    "Tools/Programming Language/Python/Course/MIT 2022/Lecture-02/if-else-elif.md",
+    "Tools/Programming Language/Python/Course/MIT 2022/Lecture-02/Lecture-02.canvas",
+    "Tools/Programming Language/Python/Course/MIT 2022/Lecture-02",
     "CS Concepts/Distributed System/Docker/Difference-Between-VM-VE-Container.md",
     "Content List.md",
     "CS Concepts/Distributed System/Docker/Docker.md",
     "Artificial Intelligence/Artificial Intelligence Content List.md",
-    "CS Concepts/Distributed System/Docker/Docker-Workflow.md",
     "CS Concepts/Distributed System/Docker",
     "CS Concepts/Distributed System",
     "CS Concepts",
@@ -218,16 +228,10 @@
     "Artificial Intelligence/Computer/Tools/Programming/Python/Concept/Virtual Environment.canvas",
     "Artificial Intelligence/Computer/Tools/Programming/Python/Course/MIT 2022/Lecture-01/Attachments/How-Program-Work-Highlevel.md",
     "Artificial Intelligence/Computer/Tools/Programming/Python/Course/MIT 2022/Lecture-01/Lecture-01.canvas",
-    "Artificial Intelligence/Computer/Tools/Programming/Python/Course/MIT 2022/Lecture-02/test.py",
-    "Artificial Intelligence/Computer/Tools/Programming/Python/Course/MIT 2022/Lecture-01/Finger-Exersice.py",
     "Artificial Intelligence/Computer/Tools/Programming/Python/Course/MIT 2022/Untitled.canvas",
     "Master/Thesis/Thesis References/GRAG/Peng/Peng.canvas",
     "Artificial Intelligence/Computer/Concept/Shell.md",
     "Artificial Intelligence/Computer/Concept/Kernel-Shell.canvas",
-    "Artificial Intelligence/Computer/Concept/Distributed System/Distributed System.canvas",
-    "Artificial Intelligence/Computer/Tools/Programming/Editor/VIM-Fundamentals-Primeagen.md",
-    "Artificial Intelligence/Computer/Tools/Programming/Advice.md",
-    "Work/Linux Useful Commands.md",
     "Artificial Intelligence/Mathematics/Calculus/Course/MIT/ProblemSet + Solutions/PS-01/Attachments/different-type-of-symmetry.png",
     "Master/Thesis/attachments/StrangeLoopCanon-AI-IQtest.png",
     "Master/Thesis/attachments/Quality-&-Context-ArtificialAnalysis.png",

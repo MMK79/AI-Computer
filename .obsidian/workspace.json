@@ -4,38 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "1652e35918fe15ce",
+        "id": "83cee11b59da89e7",
         "type": "tabs",
         "children": [
           {
-            "id": "c3641f6194536b8c",
+            "id": "c6be7ad1b949b270",
             "type": "leaf",
             "state": {
-              "type": "canvas",
-              "state": {
-                "file": "Tools/Programming Language/Python/Course/MIT 2022/Lecture-03/Lecture-03.canvas",
-                "viewState": {
-                  "x": 620,
-                  "y": -98,
-                  "zoom": -1.3120181484655333
-                }
-              },
-              "icon": "lucide-layout-dashboard",
-              "title": "Lecture-03"
-            }
-          },
-          {
-            "id": "575ea00da2b47339",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Artificial Intelligence/Computer/Tools/Programming/Editor/NeoVim.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "NeoVim"
+              "title": "New tab"
             }
           }
         ]
@@ -184,6 +163,9 @@
   },
   "active": "d0890856a4ba7a7f",
   "lastOpenFiles": [
+    "Tools/Programming Language/Python/Course/MIT 2022/Lecture-05/lecture-05.ipynb",
+    "Tools/Programming Language/Python/Course/MIT 2022/Lecture-05/Lecture-05.canvas",
+    "Tools/Programming Language/Python/Course/MIT 2022/Lecture-05",
     "Tools/Programming Language/Python/Course/MIT 2022/Lecture-04/lecture-04.ipynb",
     "Tools/Programming Language/Python/Course/MIT 2022/Lecture-04/Guess-and-Check-Implementation-Comparison.md",
     "Tools/Programming Language/Python/Course/MIT 2022/Lecture-04/Lecture-04.canvas",
@@ -225,14 +207,11 @@
     "Content/Personal Writings/Persian/استرس.md",
     "Master/Personal/Computer Tools.md",
     "Artificial Intelligence/Data Analysis/Course/Database with Sql - CS50/Lecture - 01/Untitled.md",
-    "Artificial Intelligence/Data Analysis/Course/Database with Sql - CS50/Lecture - 01",
-    "Artificial Intelligence/Data Analysis/Course/Database with Sql - CS50",
     "Master/Ideas/Instead of Distribution see Data as a Way.md",
     "Artificial Intelligence/Machine Learning/Course/Andrej Karpathy/Lecture-01/Untitled.md",
     "Artificial Intelligence/Computer/Tools/Programming/Python/Course/MIT 2022/Lecture-02/Lecture-02.canvas",
     "Artificial Intelligence/Computer/Tools/Programming/Python/Concept/Virtual Environment.canvas",
     "Artificial Intelligence/Computer/Tools/Programming/Python/Course/MIT 2022/Lecture-01/Lecture-01.canvas",
-    "Artificial Intelligence/Computer/Tools/Programming/Python/Course/MIT 2022/Untitled.canvas",
     "Artificial Intelligence/Mathematics/Calculus/Course/MIT/ProblemSet + Solutions/PS-01/Attachments/different-type-of-symmetry.png",
     "Master/Thesis/attachments/StrangeLoopCanon-AI-IQtest.png",
     "Master/Thesis/attachments/Quality-&-Context-ArtificialAnalysis.png",

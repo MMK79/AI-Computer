@@ -1,0 +1,31 @@
+{
+	"nodes":[
+		{"id":"7d42c40b3b25a581","type":"text","text":"Fraction:\nBinary representation of a decimal means; can we find a combination of these values:\n$$a*2^{-1}+b*2^{-2}+c*2^{-3}+d*2^{-4}+\\dots$$\n$$=0.5a+0.25b+0.125c+0.0625d+\\dots$$\nHow computer solve this?\nWhat is a biggest multiple of two, that I can multiply my decimal number which result to a whole number (integer)\n* The problem occur when we don't find/have a power of 2 that do this job\n* in binary divide by power of 2 means shifting to the right :D","x":120,"y":-320,"width":359,"height":412},
+		{"id":"626204a814b7b72d","type":"text","text":"```\nx = float(input(\"enter your number\"))\np = 0\n# Find a power of 2 which its multiply with the decimal result as an integer number\nwhile ((2**p) * x) % 1 != 0:\n    print(\"Remainder = \" + str((2**p) * x - int((2**p) * x)))\n    p += 1\n\n# After finding the power of 2 then we convert the integer number into binary format\nnum = int(x * (2**p))\nresult = \"\"\nif num == 0:\n    result = \"0\"\nwhile num > 0:\n    result = str(num % 2) + result\n    num = num // 2\n\n# Time to shift the result base on the power of 2 that we found in the first place\nfor i in range(p - len(result)):\n    result = \"0\" + result\n\n# Create the shifted result\nresult = result[0:-p] + \".\" + result[-p:]\n\nprint(\"The binary representation of the decimal \" + str(x) + \" is \" + str(result))\n\n```","x":580,"y":-463,"width":783,"height":699},
+		{"id":"60912852eafe0b83","type":"text","text":"some number will be way to big for computer hardware to represent them","x":1440,"y":-171,"width":193,"height":116},
+		{"id":"c1f5d3edcc27adb3","x":2080,"y":-171,"width":250,"height":116,"type":"text","text":"We call these numbers float, because the decimal point `.` always floating around"},
+		{"id":"3040a036fb73ff96","x":1980,"y":0,"width":450,"height":205,"type":"text","text":"most modern computer use 32 bit to represent significant digits so;\n* if your number represented with more than 32bits in binary the number will be rounded\n\t* error will be at the 32nd bit\n\t* error will only be on order of $2*10^{-10}$"},
+		{"id":"9742094bba6ebfba","type":"text","text":"Lecture-05","x":-280,"y":176,"width":250,"height":60},
+		{"id":"528074f596884f2a","x":120,"y":480,"width":377,"height":113,"type":"text","text":"Approximation Method:\n* Use when exact answer is not accessible\n* find a \"good enough\" answer"},
+		{"id":"c8ca70505794e177","x":1091,"y":493,"width":446,"height":88,"type":"text","text":"epsilon, increment $\\uparrow$ $\\rightarrow$ faster program, low accuracy\nepsilon, increment $\\downarrow$ $\\rightarrow$ slow program, high accuracy "},
+		{"id":"840a106384d984a0","x":540,"y":500,"width":500,"height":75,"type":"text","text":"* epsilon = how much error is fine\n* increment = how much increase in our guess in each step"},
+		{"id":"b461abd132486d93","x":1680,"y":284,"width":581,"height":507,"type":"text","text":"```\nx = float(input(\"enter your number\"))\nepsilon = 0.01\nnum_guess = 0\nguess = 0.0\nincrement = 0.0001\n\n# Approximation Method Algorithm happen here\n# guess**2 <= x cause you want it to stop if it goes far\nwhile abs(guess**2 - x) >= epsilon and guess**2 <= x:\n    guess += increment\n    num_guess += 1\n# solution to stop program from running infinit times\n\tif num_guess == 1000:\n\t\tprint('Current guess=', guess)\n\t\tprint('Current guess**2 - x=', abs(guess*guess -x))\nprint(\"num_guesses =\", num_guess)\nprint(guess, \"is close to square root of\", x)\n\n```"},
+		{"id":"ad1bbb702d38b837","x":2350,"y":460,"width":341,"height":155,"type":"text","text":"* don't use == to compare for floats\n* be careful that your value don't jump above exit test (Overshooting)\n* Tradeoff exists between efficiency of algorithm and accuracy of result"},
+		{"id":"5220e15c8a2f8820","x":1680,"y":-156,"width":310,"height":86,"type":"text","text":"Float numbers representation in computer:\n(significant number, power of 2)"},
+		{"id":"6dcfbaba4b49f99e","x":2520,"y":23,"width":511,"height":159,"type":"text","text":"* Never use == to test floats\n* What gets printed isn't always the way that things is represented in the memory\n* Be careful when you are designing algorithm that use floats\n* Multiple operations on floats magnify errors"}
+	],
+	"edges":[
+		{"id":"9912982bb2a8ca15","fromNode":"9742094bba6ebfba","fromSide":"right","toNode":"7d42c40b3b25a581","toSide":"left"},
+		{"id":"417bf196a78de2b4","fromNode":"7d42c40b3b25a581","fromSide":"right","toNode":"626204a814b7b72d","toSide":"left"},
+		{"id":"27d871816818f8de","fromNode":"626204a814b7b72d","fromSide":"right","toNode":"60912852eafe0b83","toSide":"left"},
+		{"id":"94a16b20470a261b","fromNode":"60912852eafe0b83","fromSide":"right","toNode":"5220e15c8a2f8820","toSide":"left"},
+		{"id":"dfb8126954fe68d5","fromNode":"5220e15c8a2f8820","fromSide":"right","toNode":"c1f5d3edcc27adb3","toSide":"left"},
+		{"id":"c16cb03965050f40","fromNode":"5220e15c8a2f8820","fromSide":"bottom","toNode":"3040a036fb73ff96","toSide":"left"},
+		{"id":"fa8cd2edda64301c","fromNode":"3040a036fb73ff96","fromSide":"right","toNode":"6dcfbaba4b49f99e","toSide":"left"},
+		{"id":"141e00f54798e225","fromNode":"9742094bba6ebfba","fromSide":"right","toNode":"528074f596884f2a","toSide":"left"},
+		{"id":"a1d9aa435d1c3cad","fromNode":"528074f596884f2a","fromSide":"right","toNode":"840a106384d984a0","toSide":"left"},
+		{"id":"ae1370d5b304277d","fromNode":"840a106384d984a0","fromSide":"right","toNode":"c8ca70505794e177","toSide":"left"},
+		{"id":"dd4ae23d54378041","fromNode":"c8ca70505794e177","fromSide":"right","toNode":"b461abd132486d93","toSide":"left"},
+		{"id":"cbb69819705b66ea","fromNode":"b461abd132486d93","fromSide":"right","toNode":"ad1bbb702d38b837","toSide":"left"}
+	]
+}

@@ -1,0 +1,27 @@
+{
+	"nodes":[
+		{"id":"1fabbd7933b00469","type":"text","text":"Break Statement:\n* Immediately exit innermost loop\n\t* If is not a loop, it is a condition","x":-325,"y":-384,"width":250,"height":172},
+		{"id":"18826d8c48179444","type":"text","text":"Pythonic way to write Control Flows (Branching, Loops)\n```\ns = <word>\nfor index in range (len(<word>)): -> pythonic way: for char in s\n\tif s[index] == i or s[index] == u: -> pythonic way: if char in \"iu\"\n\t\tprint(\"there is i or u\")\n```","x":-325,"y":-161,"width":686,"height":196},
+		{"id":"0a01745a397c013b","type":"text","text":"Algorithms","x":-325,"y":265,"width":250,"height":60},
+		{"id":"e64e518fc30966d9","type":"text","text":"Guess-and-Check Algorithm / Exhaustive enumeration\n* Applies to:\n\t* guess value for solution\n\t* check if solution is True\n* Keep guess until:\n\t* Find solution\n\t* Have guessed all values\n* Systematic approach = Brute Force = Computational Thinking\n* Flags $\\rightarrow$ track events in our program $\\rightarrow$ Boolean, Count, etc.","x":18,"y":120,"width":445,"height":350},
+		{"id":"bae277822710b723","type":"file","file":"Artificial Intelligence/Computer/Tools/Programming/Python/Course/MIT 2022/Lecture-04/Guess-and-Check-Implementation-Comparison.md","x":599,"y":80,"width":400,"height":430},
+		{"id":"a8167f33fa56914f","type":"text","text":"Depends on Computer hardware, not programming language\n* you will see this problem everywhere\nEverything are represented as a sequence of bits in computer $\\rightarrow$ we write numbers in base 10, but computer understand it in base 2 $\\rightarrow$ cognitive dissonance\n* Hardware cause the base 2 $\\xrightarrow{why}$ easy to implement one of two state $\\rightarrow$ efficient\n* easy to handle integer, there is no error in converting base 10 number to base 2","x":599,"y":576,"width":547,"height":294},
+		{"id":"4d142ae6915b3838","type":"text","text":"Floating Point Error:\nOperation on floats introduce very small error\n* more operation = bigger error","x":18,"y":669,"width":426,"height":109},
+		{"id":"c2765e2967202386","type":"text","text":"Binary Numbers","x":-325,"y":693,"width":250,"height":60},
+		{"id":"030fdd57c3b522ac","type":"text","text":"```\nnum = int(input(\"enter your number\"))\nresult = \"\"\nif num == 0:\n    result = \"0\"\nwhile num > 0:\n    result = str(num % 2) + result\n    num = num // 2\n    print(result, num)\n```","x":1240,"y":594,"width":406,"height":259},
+		{"id":"d60e2bfe1f8f1e49","type":"text","text":"it only can give answer for a perfect square number\nor tell me that the number is not a perfect square","x":1092,"y":263,"width":428,"height":65},
+		{"id":"9b359d729c1643ca","type":"text","text":"Lecture-04","x":-720,"y":90,"width":250,"height":60}
+	],
+	"edges":[
+		{"id":"69269590f37ea659","fromNode":"9b359d729c1643ca","fromSide":"right","toNode":"1fabbd7933b00469","toSide":"left"},
+		{"id":"10e196cd1af6f41d","fromNode":"9b359d729c1643ca","fromSide":"right","toNode":"18826d8c48179444","toSide":"left"},
+		{"id":"73987141fac5bf31","fromNode":"9b359d729c1643ca","fromSide":"right","toNode":"0a01745a397c013b","toSide":"left"},
+		{"id":"819ef03c3af32266","fromNode":"0a01745a397c013b","fromSide":"right","toNode":"e64e518fc30966d9","toSide":"left"},
+		{"id":"904545e3ab793e1c","fromNode":"e64e518fc30966d9","fromSide":"right","toNode":"bae277822710b723","toSide":"left"},
+		{"id":"2d819be52df18fd9","fromNode":"9b359d729c1643ca","fromSide":"right","toNode":"c2765e2967202386","toSide":"left"},
+		{"id":"67518f06b1b93e83","fromNode":"c2765e2967202386","fromSide":"right","toNode":"4d142ae6915b3838","toSide":"left"},
+		{"id":"55dc37e17997b61b","fromNode":"4d142ae6915b3838","fromSide":"right","toNode":"a8167f33fa56914f","toSide":"left","label":"Cause"},
+		{"id":"85d895927b3ba36b","fromNode":"a8167f33fa56914f","fromSide":"right","toNode":"030fdd57c3b522ac","toSide":"left"},
+		{"id":"b45bc6fcffd9f4db","fromNode":"bae277822710b723","fromSide":"right","toNode":"d60e2bfe1f8f1e49","toSide":"left","label":"limit"}
+	]
+}

@@ -1,0 +1,25 @@
+{
+	"nodes":[
+		{"id":"a0c2d5022a615c03","type":"text","text":"Control Flow:\nnot go through the code systematically (line by line)","x":-249,"y":-316,"width":254,"height":96},
+		{"id":"4d388b4feb988056","type":"text","text":"Branching (Conditioning):\nif, elif, else","x":120,"y":-460,"width":250,"height":60},
+		{"id":"a5cbad6192f0a5b3","type":"text","text":"Iteration","x":120,"y":-140,"width":250,"height":60},
+		{"id":"9da1d16384594ee5","type":"file","file":"Tools/Programming Language/Python/Course/MIT 2022/Lecture-03/While Loop.md","x":1440,"y":-430,"width":400,"height":350},
+		{"id":"64f12027b59ba06a","type":"text","text":"```\nwhile <condition>:\n\t<code>\n\t<code>\n\t...\n```\n* `<condition>` evaluate to a boolean \n* While loops can repeat code inside indefinitely!","x":880,"y":-411,"width":250,"height":312},
+		{"id":"151fc7ece4a66409","type":"text","text":"`range`:\nGenerate a sequence of ints\n`range(start, stop, step)`\n* in slicing it was `[start:stop:step]`","x":1267,"y":40,"width":347,"height":139},
+		{"id":"d09e950582a18fa7","type":"text","text":"For Loop:\nfor when there is a sequence of values that you want to iterate over\n* when you don't know how many times","x":560,"y":10,"width":250,"height":199},
+		{"id":"ee1ecf330133132a","type":"text","text":"While Loop:\nWe want a task to repeat While a condition is true\n* When you know how many times","x":560,"y":-339,"width":250,"height":169},
+		{"id":"8d31ede7b3aa9d12","type":"text","text":"```\nfor <variable> in <sequence of values>:\n\t<code>\n\t<code>\n\t...\n```\n* Each time through the loop, `<variable>` takes a value","x":880,"y":-45,"width":250,"height":309},
+		{"id":"5d1c53d8d98fd1ae","type":"text","text":"Lecture-04","x":-600,"y":-298,"width":250,"height":60}
+	],
+	"edges":[
+		{"id":"63feb7faa51d8d4b","fromNode":"a0c2d5022a615c03","fromSide":"right","toNode":"4d388b4feb988056","toSide":"left"},
+		{"id":"30139b99b60e2bab","fromNode":"a0c2d5022a615c03","fromSide":"right","toNode":"a5cbad6192f0a5b3","toSide":"left"},
+		{"id":"e78f0d13074af4a6","fromNode":"ee1ecf330133132a","fromSide":"right","toNode":"64f12027b59ba06a","toSide":"left"},
+		{"id":"ce94fd48a8c34369","fromNode":"64f12027b59ba06a","fromSide":"right","toNode":"9da1d16384594ee5","toSide":"left","label":"Behind the Scene"},
+		{"id":"6001b53c28bab141","fromNode":"d09e950582a18fa7","fromSide":"right","toNode":"8d31ede7b3aa9d12","toSide":"left"},
+		{"id":"16eacc6a36807a8c","fromNode":"a5cbad6192f0a5b3","fromSide":"right","toNode":"ee1ecf330133132a","toSide":"left"},
+		{"id":"727fd0d0244c2330","fromNode":"a5cbad6192f0a5b3","fromSide":"right","toNode":"d09e950582a18fa7","toSide":"left"},
+		{"id":"4482153dacd11e04","fromNode":"8d31ede7b3aa9d12","fromSide":"right","toNode":"151fc7ece4a66409","toSide":"left"},
+		{"id":"ee8d0e154e355ab9","fromNode":"5d1c53d8d98fd1ae","fromSide":"right","toNode":"a0c2d5022a615c03","toSide":"left"}
+	]
+}

@@ -1,0 +1,25 @@
+{
+	"nodes":[
+		{"id":"a40791d728c40eee","x":-600,"y":269,"width":250,"height":60,"type":"text","text":"Lecture-06"},
+		{"id":"f5b3d6a296c4e775","x":-160,"y":425,"width":559,"height":302,"type":"text","text":"Iterative Algorithms:\n* Guess and Check Methods have some attribute assigned to them:\n\t* Use looping construct\n\t* Generate guess:\n\t\t* Exhaustive Enumeration\n\t\t* Approximation Algorithm\n\t\t* Bisection Search\n\t\t* Newton-Rasphon\n\t* Check and continue"},
+		{"id":"77de6e22f9dc85fc","x":378,"y":838,"width":479,"height":169,"type":"text","text":"Decomposition:\ndivide large program to smaller parts, these small parts are self-contained (no interfere between them) but thy can talk to each other\n* Part can be reused by other program, Modular"},
+		{"id":"e7448f23b2dcdfdb","x":-160,"y":1038,"width":330,"height":56,"type":"text","text":"Decomposition & Abstraction"},
+		{"id":"50ff32ec8c51480d","x":378,"y":1094,"width":483,"height":235,"type":"text","text":"Abstraction:\nWhen you wrote the self-contained part one time you don't need others to know what you done, abstract all details to some text/interface (function)\n* Don't care about unnecessary detail\n* Separate what something does, from how it does it\n* Superessing detail $\\rightarrow$ writing comment"},
+		{"id":"06f9f24d2646e0b8","type":"text","text":"```\nnumber = float(input(\"Give me a positive number: \"))\nepsilon = 0.01\nnum_guesses = 0\nif number >= 1:\n    low = 0\n    high = number\nelse:\n    low = number\n    high = 1\nguess = (high + low)/2.0\nwhile abs(guess**2 - number) >= epsilon:\n    if guess**2 < number:\n        low = guess\n    else:\n        high = guess\n    guess = (high + low)/2.0\n    num_guesses += 1\nprint(f'number of guess {num_guesses}')\nprint(f'{guess} is close to square root of {number}')\n```","x":418,"y":-840,"width":560,"height":531},
+		{"id":"9f5e65ddab7fe6a4","type":"text","text":"Bisection Search:\nProblems with an inherent order\n* Search space has order\n* Have Feedback, can tell if a guess is too low/high\n* $O(\\log_N 2)$\n\t* Proof: $$N/2^k = 1 \\rightarrow N = 2^k \\rightarrow k = \\log_2 N$$\nUsage: Indexing in Database","x":-111,"y":-733,"width":409,"height":317},
+		{"id":"6ff0799f79f59b59","x":978,"y":-108,"width":446,"height":266,"type":"text","text":"```\nx = 24\nepsilon = 0.01\nguess = 1.0\nguess_count = 0\nwhile abs(guess**2 - x) >= epsilon:\n    guess = guess - (guess**2 -x)/(2*guess)\n    guess_count += 1\nprint(guess, guess_count)\n```"},
+		{"id":"8216fde241949c4b","x":-160,"y":-61,"width":508,"height":196,"type":"text","text":"Newton-Raphson Algorithm:\n* approximation algorithm to find roots of a polynomial\n$$p(x) = a_n x^n + a_{n-1}x^{n-1}+\\dots+a_1 x+ a_0$$\n$$new\\ guess = \\frac{guess - p(guess)}{\\mathsf dp(guess)}$$"},
+		{"id":"9689837fff98f88d","x":498,"y":-61,"width":400,"height":172,"type":"text","text":"Implementation for square root:\nthink of square root problem as a polynomial:\n$$p(x) = x^2 - number$$\n* the $number$ is the input of your user\n* pretty limited"}
+	],
+	"edges":[
+		{"id":"11990eea233029de","fromNode":"9f5e65ddab7fe6a4","fromSide":"right","toNode":"06f9f24d2646e0b8","toSide":"left"},
+		{"id":"17e4004e44e684ad","fromNode":"a40791d728c40eee","fromSide":"right","toNode":"9f5e65ddab7fe6a4","toSide":"left"},
+		{"id":"2a7d7208f918b2a4","fromNode":"a40791d728c40eee","fromSide":"right","toNode":"8216fde241949c4b","toSide":"left"},
+		{"id":"8c34375d1541b91b","fromNode":"8216fde241949c4b","fromSide":"right","toNode":"9689837fff98f88d","toSide":"left","label":"Usage"},
+		{"id":"f4a19905879c2a43","fromNode":"9689837fff98f88d","fromSide":"right","toNode":"6ff0799f79f59b59","toSide":"left"},
+		{"id":"6c0686fb466c49d2","fromNode":"a40791d728c40eee","fromSide":"right","toNode":"f5b3d6a296c4e775","toSide":"left"},
+		{"id":"4711fe61a96cfacd","fromNode":"a40791d728c40eee","fromSide":"right","toNode":"e7448f23b2dcdfdb","toSide":"left"},
+		{"id":"cbed64f0165d82ba","fromNode":"e7448f23b2dcdfdb","fromSide":"right","toNode":"77de6e22f9dc85fc","toSide":"left"},
+		{"id":"f73df7222da7ab11","fromNode":"e7448f23b2dcdfdb","fromSide":"right","toNode":"50ff32ec8c51480d","toSide":"left"}
+	]
+}

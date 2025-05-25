@@ -1,0 +1,23 @@
+{
+	"nodes":[
+		{"id":"d2d4db26ec97cc14","x":-709,"y":-147,"width":250,"height":60,"type":"text","text":"Abstraction & Decomposition"},
+		{"id":"32b962c12fd101c5","x":-380,"y":-259,"width":315,"height":285,"type":"text","text":"Abstraction: Interface, a relationship between input and output\n* Abstraction Enable Decomposition\n* Abstraction is when you look at things like a black box\n* Decomposition means when you break things down to a self-contained part"},
+		{"id":"7ed9d2526534d889","x":-20,"y":-218,"width":500,"height":204,"type":"text","text":"Functions (Procedures):\nEnable Abstraction\nYou write a piece of code one time, then treat it like a black box (You know input, output), and only use it\n* Function has a specification, capture by docstring\n\t* docstring is like a contract between coder and user"},
+		{"id":"6af2730b7fc1e306","x":640,"y":110,"width":416,"height":235,"type":"text","text":"We are not running the function, we are defining it\n* Code does not run line by line $\\rightarrow$ Defining a function tells python that some code now exists in memory\n\t* You can call, run, invoke a function\n* You write a function one time, run it multiple times"},
+		{"id":"89234d3ef66ef8fd","x":640,"y":-245,"width":380,"height":271,"type":"text","text":"Use functions to decomposition $\\rightarrow$ divide code into modules which are:\n* Self-contained\n* Reusable\nModules intend to:\n* Break code into logical pieces\n* Keep code organized\n* Keep code coherent"},
+		{"id":"58be6c7de3c61a50","x":1100,"y":106,"width":352,"height":244,"type":"text","text":" Function Components:\n * Name\n * Parameters: Input/Argument\n * Docstring\n * Body: instruction to run when get call\n * Return\n\t * No return cause print none"},
+		{"id":"6b9f7fbc513a57bb","x":1540,"y":74,"width":429,"height":307,"type":"text","text":"Function Object:\n```\ndef name (parameter_0, ..., parameter_n):\n\"\"\"\ndocstring\n\"\"\"\n<code>\n<code>\n<code> (body)\nreturn value\n```"},
+		{"id":"caa8eaf496984f20","x":2060,"y":70,"width":439,"height":314,"type":"text","text":"Function Call\n```\nfunction_name(object)\n```\nWhen function call happen:\n1. python will map the object/value of function call with formal parameter of function\n2. Then execute the body of function and return\n* Function call replace with value of function return"},
+		{"id":"00f0e3cff7348183","x":2580,"y":166,"width":324,"height":122,"type":"text","text":"* Solve simple problem first Then add functionality to your program\n* Test code often, print often"}
+	],
+	"edges":[
+		{"id":"6383354fbbf76ae0","fromNode":"d2d4db26ec97cc14","fromSide":"right","toNode":"32b962c12fd101c5","toSide":"left"},
+		{"id":"6a6fcd99a2a6a2aa","fromNode":"32b962c12fd101c5","fromSide":"right","toNode":"7ed9d2526534d889","toSide":"left"},
+		{"id":"2524fce4546c0a84","fromNode":"7ed9d2526534d889","fromSide":"right","toNode":"89234d3ef66ef8fd","toSide":"left","label":"Enable"},
+		{"id":"4cc7ad8abf04bedb","fromNode":"7ed9d2526534d889","fromSide":"right","toNode":"6af2730b7fc1e306","toSide":"left"},
+		{"id":"a206e3e20f824cf7","fromNode":"6af2730b7fc1e306","fromSide":"right","toNode":"58be6c7de3c61a50","toSide":"left"},
+		{"id":"62cb7d57df6993e0","fromNode":"58be6c7de3c61a50","fromSide":"right","toNode":"6b9f7fbc513a57bb","toSide":"left"},
+		{"id":"4fb47a63bc30cc7b","fromNode":"6b9f7fbc513a57bb","fromSide":"right","toNode":"caa8eaf496984f20","toSide":"left"},
+		{"id":"34e96aadba7f24dc","fromNode":"caa8eaf496984f20","fromSide":"right","toNode":"00f0e3cff7348183","toSide":"left"}
+	]
+}

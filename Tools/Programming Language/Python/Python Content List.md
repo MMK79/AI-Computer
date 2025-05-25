@@ -1,4 +1,5 @@
 # Contain Summary Notes about Python
+* [[MIT-Python-Lecture-List]]
 # How to Use it:
 * Open this files with [Obsidian](https://obsidian.md/download)
   * [Enable Community Plugins in Obsidian](https://help.obsidian.md/Extending+Obsidian/Community+plugins)

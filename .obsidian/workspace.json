@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "e52a016bdcded630",
+        "id": "ee9461846867ddf4",
         "type": "tabs",
         "children": [
           {
-            "id": "78acbe69e4e14682",
+            "id": "42c065b3e5e2b729",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Tools/Programming Language/Python/Python Content List.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Python Content List"
             }
           }
         ]
@@ -161,8 +165,13 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "d0890856a4ba7a7f",
+  "active": "42c065b3e5e2b729",
   "lastOpenFiles": [
+    "Tools/Programming Language/Python/Course/MIT 2022/MIT-Python-Lecture-List.md",
+    "Tools/Programming Language/Python/Python Content List.md",
+    "Tools/Programming Language/Python/Course/MIT 2022/Lecture-07/lecture-07.ipynb",
+    "Tools/Programming Language/Python/Course/MIT 2022/Lecture-07/Lecture-07.canvas",
+    "Tools/Programming Language/Python/Course/MIT 2022/Lecture-07",
     "Tools/Programming Language/Python/Course/MIT 2022/Lecture-06/lecture-06.ipynb",
     "Tools/Programming Language/Python/Course/MIT 2022/Lecture-06/Lecture-06.canvas",
     "Tools/Programming Language/Python/Course/MIT 2022/Lecture-06",
@@ -179,15 +188,12 @@
     "Tools/Programming Language/Python/Course/MIT 2022/Lecture-03/While Loop.md",
     "Tools/Programming Language/Python/Course/MIT 2022/Lecture-03",
     "CS Concepts/Distributed System/Docker/Docker-Workflow.md",
-    "Tools/Programming Language/Python/Course/MIT 2022/Lecture-02/lecture-02.ipynb",
     "Tools/Programming Language/Python/Course/MIT 2022/Lecture-02/Indexing.md",
     "Tools/Programming Language/Python/Course/MIT 2022/Lecture-02/if-else-elif.md",
-    "Tools/Programming Language/Python/Course/MIT 2022/Lecture-02",
     "CS Concepts/Distributed System/Docker/Difference-Between-VM-VE-Container.md",
     "Content List.md",
     "CS Concepts/Distributed System/Docker/Docker.md",
     "Artificial Intelligence/Artificial Intelligence Content List.md",
-    "CS Concepts/Distributed System/Docker",
     "Artificial Intelligence/Machine Learning/Course/Yaser Abu-Mostafa - Caltech/Abu Yaser-Mostafa Course Content List.md",
     "Artificial Intelligence/Machine Learning/Course/Machine Learning Courses Content List.md",
     "Artificial Intelligence/Machine Learning/Machine Learning Content List.md",
@@ -209,9 +215,7 @@
     "Master/Personal/Computer Tools.md",
     "Artificial Intelligence/Data Analysis/Course/Database with Sql - CS50/Lecture - 01/Untitled.md",
     "Master/Ideas/Instead of Distribution see Data as a Way.md",
-    "Artificial Intelligence/Machine Learning/Course/Andrej Karpathy/Lecture-01/Untitled.md",
     "Artificial Intelligence/Computer/Tools/Programming/Python/Course/MIT 2022/Lecture-02/Lecture-02.canvas",
-    "Artificial Intelligence/Computer/Tools/Programming/Python/Concept/Virtual Environment.canvas",
     "Artificial Intelligence/Mathematics/Calculus/Course/MIT/ProblemSet + Solutions/PS-01/Attachments/different-type-of-symmetry.png",
     "Master/Thesis/attachments/StrangeLoopCanon-AI-IQtest.png",
     "Master/Thesis/attachments/Quality-&-Context-ArtificialAnalysis.png",

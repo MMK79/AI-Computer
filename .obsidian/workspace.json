@@ -11,10 +11,14 @@
             "id": "815561b83042b3d0",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Tools/Programming Language/Python/Course/MIT 2022/MIT-Python-Lecture-List.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "MIT-Python-Lecture-List"
             }
           }
         ]
@@ -163,6 +167,9 @@
   },
   "active": "815561b83042b3d0",
   "lastOpenFiles": [
+    "Tools/Programming Language/Python/Course/MIT 2022/Lecture-09/lecture-09.ipynb",
+    "Tools/Programming Language/Python/Course/MIT 2022/Lecture-09/Lecture-09.canvas",
+    "Tools/Programming Language/Python/Course/MIT 2022/Lecture-09",
     "Tools/Programming Language/Python/Course/MIT 2022/Lecture-07/Lecture-07.canvas",
     "Tools/Programming Language/Python/Course/MIT 2022/MIT-Python-Lecture-List.md",
     "Tools/Programming Language/Python/Course/MIT 2022/Lecture-08/lecture-08.ipynb",
@@ -181,7 +188,6 @@
     "Tools/Programming Language/Python/Course/MIT 2022/Lecture-04/lecture-04.ipynb",
     "Tools/Programming Language/Python/Course/MIT 2022/Lecture-04/Guess-and-Check-Implementation-Comparison.md",
     "Tools/Programming Language/Python/Course/MIT 2022/Lecture-04/Lecture-04.canvas",
-    "Tools/Programming Language/Python/Course/MIT 2022/Lecture-04",
     "Tools/Programming Language/Python/Course/MIT 2022/Lecture-02/Lecture-02.canvas",
     "Tools/Programming Language/Python/Course/MIT 2022/Lecture-03/While Loop.md",
     "CS Concepts/Distributed System/Docker/Docker-Workflow.md",
@@ -201,7 +207,6 @@
     "Artificial Intelligence/Machine Learning/Course/Yaser Abu-Mostafa - Caltech/Lecture-01/Attachments/Components-of-learning.png",
     "Artificial Intelligence/Machine Learning/Course/Yaser Abu-Mostafa - Caltech/Lecture-01/Attachments/Learning-Diagram.png",
     "Artificial Intelligence/Machine Learning/Course/Yaser Abu-Mostafa - Caltech/Lecture-01/Attachments/Inner-Product.png",
-    "Artificial Intelligence/Machine Learning/Course/Yaser Abu-Mostafa - Caltech/Lecture-03/Lecture-03-Summery.canvas",
     "Artificial Intelligence/Machine Learning/Course/Yaser Abu-Mostafa - Caltech/Lecture-02/Lecture-02.md",
     "Artificial Intelligence/Computer/Tools/Git/The Primeagen.md",
     "Artificial Intelligence/Computer/Tools/Programming/Editor/NeoVim.md",

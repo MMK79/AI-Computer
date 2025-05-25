@@ -1,0 +1,21 @@
+{
+	"nodes":[
+		{"id":"c4c322ef6f3cde52","x":-388,"y":58,"width":250,"height":60,"type":"text","text":"Lecture-09"},
+		{"id":"63e4e829e4a7d152","x":20,"y":-127,"width":449,"height":430,"type":"text","text":"Anonymous/Lambda Function:\n* Function that do a simple task, that don't even need a name $\\xrightarrow{result}$ anonymous procedure/function\n```\nlambda x: x%2 == 0\nlambda parameter0, parameter1 ...: <function_body>\n```\n* No return in it's syntax\n* Create a function object, but not binding it\n\nFunction Call:\n```\n(lambda x:x%2==0)(8)\n```"},
+		{"id":"e0b23e053f14a31c","x":20,"y":440,"width":437,"height":205,"type":"text","text":"Compound Data Types:\nIndexed Sequence of elements, which could themselves contain compound structure\n* String\n* Tuple - Immutable\n* List - mutable"},
+		{"id":"38914b85154c1ff8","x":800,"y":-247,"width":414,"height":892,"type":"text","text":"Tuples:\nIndexable sequence of objects\n* Cannot change element values\n* Create an empty tuple\n```\ntuple = ()\n```\n* Create an one element tuple\n```\ntuple = (a, )\n```\nto differentiate it from other data types\n* Indices & Slicing:\nSame syntax as what you have done in strings\n* you can chain things together\n```\nseq = (2, 'a', 4, (1,2))\nprint(seq[3][1]) #result in 1\n```\n* You can iterate through tuples elements:\n```\nfor i in seq:\n\tprint i\n```\n* Use-case: \n\t* Swap variables\n\t* Return multiple values from a function\n```\nx = 1\ny = 2\n(x, y) = (y, x)\n```"},
+		{"id":"53b55b8c7315a667","x":1340,"y":156,"width":258,"height":86,"type":"text","text":"Returning one Object (tuple) allows you to return multiple values (tuple elements)"},
+		{"id":"faf7009a92931823","x":1709,"y":71,"width":333,"height":256,"type":"text","text":"Variable number of Arguments:\nmultiple function input with `*` notation to use tuples as an input\n```\ndef (*arg):\n\t<code>\n\t<code>\n\treturn \n```\n"},
+		{"id":"83ddbf91e01e7e9c","x":800,"y":780,"width":414,"height":368,"type":"text","text":"List:\nIndexable sequence of objects\n* Usually homogenous (i.e, all int, all string, all list)\n* But can contain mix types\nMutable: you can change value of elements after index\n```\nlist = []\n```\nOther things are same as tuple and string $\\rightarrow$ indices, slicing, iterating, etc."},
+		{"id":"cede32bd7072002b","x":20,"y":780,"width":278,"height":86,"type":"text","text":"write comment under your loops, help you for debugging"}
+	],
+	"edges":[
+		{"id":"ef5ce67998e4b196","fromNode":"c4c322ef6f3cde52","fromSide":"right","toNode":"63e4e829e4a7d152","toSide":"left"},
+		{"id":"2fa808cc48babc56","fromNode":"c4c322ef6f3cde52","fromSide":"right","toNode":"e0b23e053f14a31c","toSide":"left"},
+		{"id":"27524656ca209858","fromNode":"e0b23e053f14a31c","fromSide":"right","toNode":"38914b85154c1ff8","toSide":"left"},
+		{"id":"6a5ed7eeece6b9b1","fromNode":"38914b85154c1ff8","fromSide":"right","toNode":"53b55b8c7315a667","toSide":"left"},
+		{"id":"8aa7b486ebb0e0aa","fromNode":"53b55b8c7315a667","fromSide":"right","toNode":"faf7009a92931823","toSide":"left"},
+		{"id":"5f1db8e4a44c6db0","fromNode":"e0b23e053f14a31c","fromSide":"right","toNode":"83ddbf91e01e7e9c","toSide":"left"},
+		{"id":"d615b85dd8642af8","fromNode":"c4c322ef6f3cde52","fromSide":"right","toNode":"cede32bd7072002b","toSide":"left"}
+	]
+}

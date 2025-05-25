@@ -1,0 +1,42 @@
+{
+	"nodes":[
+		{"id":"0d2e4e45f93bc3ae","type":"group","x":960,"y":-960,"width":1157,"height":1640,"label":"Operations on List"},
+		{"id":"2426bfdaab474bee","type":"text","text":"Lecture-10","x":-360,"y":-20,"width":131,"height":60},
+		{"id":"ab3a6fd96147a47c","type":"text","text":"Mutability","x":-140,"y":-20,"width":123,"height":60},
+		{"id":"6f7774f7d3b1a005","type":"text","text":"When you mutate an element you are changing it $\\rightarrow$ You going in the memory and changing that object\n* String and Tuples are immutable, mean if you want to change the inside them you need to create a new object from them","x":60,"y":-74,"width":440,"height":169},
+		{"id":"4731ff0ea781152a","type":"text","text":"Operation On List","x":600,"y":-20,"width":197,"height":60},
+		{"id":"0a09b80a9513032b","type":"text","text":"Add elements at the end of the list:\n```\nL.append(element)\n```\n* When you using `.append` function you are mutating list and returning `None`\n```\nL = L.append(5)\n# result in None\n```\n* Mutate the list","x":980,"y":-940,"width":364,"height":335},
+		{"id":"50cabd057022e209","type":"text","text":"Convert List to String:\n` ``.join(L) ` list of strings into a bigger string\n* All elements in L must be string\n* You can put your character inside \\`` to add that character between each string ","x":980,"y":-245,"width":377,"height":203},
+		{"id":"b13d74627e0fb693","type":"text","text":"Other Operations:\n`L.sort()` $\\rightarrow$ Mutate\n`L.reverse()` $\\rightarrow$ Mutate\n`sorted(L)` $\\rightarrow$ No mutation $\\rightarrow$ return a sorted version of L","x":980,"y":69,"width":470,"height":116},
+		{"id":"e6a45eb7f7ec6acf","type":"text","text":"What is a dot in `L.append()` mean?\nEverything in Python is Object $\\rightarrow$ Object have type $\\rightarrow$ type associate with Operation you can do on that type $\\rightarrow$ you can see it by `Object_name.do_something()`\n* `L.append(element)` = function call `append(L, element)`","x":1440,"y":-842,"width":657,"height":139},
+		{"id":"ddc38cfe5299e794","type":"text","text":"Split:\n`s.split()` split string on a character parameter\n* Default value is space (empty character parameter)","x":1440,"y":-458,"width":454,"height":109},
+		{"id":"f5b5623322e2e6dc","type":"text","text":"Convert String to List\n`list(string)`\n* Each string character is an element in list","x":980,"y":-458,"width":380,"height":109},
+		{"id":"93ccb228cbee9413","type":"text","text":"* Concatenation (+ operator), create new list with copies\n* `L.extend(some_list)` Mutate\n","x":980,"y":320,"width":479,"height":80},
+		{"id":"e92dd8bd16de85af","type":"text","text":"`L.clear()` mutate a list to remove all its elements\n* does not create new list","x":993,"y":520,"width":444,"height":106},
+		{"id":"77bff735fbc15902","type":"text","text":"Function can have side effect $\\rightarrow$ mutate input\n* You can write your own function that mutate input","x":2200,"y":-180,"width":480,"height":79},
+		{"id":"83085b956ea7e796","type":"text","text":"Function that Mutate input likely:\n* Iterate over `len(L)` not `L`\n* Return None $\\rightarrow$ Function call don't need to be save","x":2760,"y":-197,"width":480,"height":113},
+		{"id":"5eb86715906ee580","type":"text","text":"Mutable Objects are very useful Data Structure\n* Store Editable Big Data","x":3300,"y":-180,"width":392,"height":79},
+		{"id":"e9e0a5749d6bdd42","x":2842,"y":20,"width":316,"height":86,"type":"text","text":"to see that when you mutate it change the same location in memory you can use `id(variable)` "},
+		{"id":"7a34e9e13d5f979d","type":"text","text":"1. A loop iterate over indices of L and mutate L each time\n2. A loop iterate over L's elements directly and mutate L each time\n3. A loop iterate over L's element directly but reassigning L to a new object each time\n4. A loop iterate over L's elements directly and mutate L by removing elements","x":3900,"y":-205,"width":678,"height":129}
+	],
+	"edges":[
+		{"id":"65ade7a385acaade","fromNode":"2426bfdaab474bee","fromSide":"right","toNode":"ab3a6fd96147a47c","toSide":"left"},
+		{"id":"3d847bff8ba57861","fromNode":"ab3a6fd96147a47c","fromSide":"right","toNode":"6f7774f7d3b1a005","toSide":"left"},
+		{"id":"a217fb6e86c5d6f2","fromNode":"6f7774f7d3b1a005","fromSide":"right","toNode":"4731ff0ea781152a","toSide":"left"},
+		{"id":"979fae3a2fe2b556","fromNode":"4731ff0ea781152a","fromSide":"right","toNode":"0a09b80a9513032b","toSide":"left"},
+		{"id":"accada86b1606010","fromNode":"0a09b80a9513032b","fromSide":"right","toNode":"e6a45eb7f7ec6acf","toSide":"left"},
+		{"id":"ab1b5bcde5625907","fromNode":"4731ff0ea781152a","fromSide":"right","toNode":"f5b5623322e2e6dc","toSide":"left"},
+		{"id":"70c7067e25dba669","fromNode":"f5b5623322e2e6dc","fromSide":"right","toNode":"ddc38cfe5299e794","toSide":"left"},
+		{"id":"e941dc79a9716425","fromNode":"f5b5623322e2e6dc","fromSide":"bottom","toNode":"50cabd057022e209","toSide":"top"},
+		{"id":"b8bb080fc1a77f69","fromNode":"50cabd057022e209","fromSide":"top","toNode":"f5b5623322e2e6dc","toSide":"bottom"},
+		{"id":"ca3586d633486891","fromNode":"4731ff0ea781152a","fromSide":"right","toNode":"50cabd057022e209","toSide":"left"},
+		{"id":"a7aedf533b4ebd7e","fromNode":"4731ff0ea781152a","fromSide":"right","toNode":"b13d74627e0fb693","toSide":"left"},
+		{"id":"6c88c3a4b24ceedd","fromNode":"0d2e4e45f93bc3ae","fromSide":"right","toNode":"77bff735fbc15902","toSide":"left"},
+		{"id":"cef871722b23e1be","fromNode":"77bff735fbc15902","fromSide":"right","toNode":"83085b956ea7e796","toSide":"left"},
+		{"id":"5e6a4d1066372d02","fromNode":"83085b956ea7e796","fromSide":"right","toNode":"5eb86715906ee580","toSide":"left"},
+		{"id":"0e521354d5d5e2af","fromNode":"5eb86715906ee580","fromSide":"right","toNode":"7a34e9e13d5f979d","toSide":"left","label":"Tricky Examples"},
+		{"id":"7871fe135deae88c","fromNode":"4731ff0ea781152a","fromSide":"right","toNode":"93ccb228cbee9413","toSide":"left"},
+		{"id":"87788785c8f23d97","fromNode":"4731ff0ea781152a","fromSide":"right","toNode":"e92dd8bd16de85af","toSide":"left"},
+		{"id":"0604fc92bc3c992a","fromNode":"83085b956ea7e796","fromSide":"bottom","toNode":"e9e0a5749d6bdd42","toSide":"top"}
+	]
+}

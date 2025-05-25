@@ -7,3 +7,4 @@
 * [[Lecture-07.canvas|Lecture-07]]
 * [[Lecture-08.canvas|Lecture-08]]
 * [[Lecture-09.canvas|Lecture-09]]
+* [[Lecture-10.canvas|Lecture-10]]

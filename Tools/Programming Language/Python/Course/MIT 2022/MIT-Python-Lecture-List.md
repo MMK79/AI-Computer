@@ -8,3 +8,4 @@
 * [[Lecture-08.canvas|Lecture-08]]
 * [[Lecture-09.canvas|Lecture-09]]
 * [[Lecture-10.canvas|Lecture-10]]
+* [[Lecture-11.canvas|Lecture-11]]

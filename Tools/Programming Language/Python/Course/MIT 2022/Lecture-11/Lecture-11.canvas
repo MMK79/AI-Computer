@@ -1,0 +1,21 @@
+{
+	"nodes":[
+		{"id":"c90ab31882258830","x":-471,"y":-16,"width":250,"height":60,"type":"text","text":"Lecture-11"},
+		{"id":"db4a750a0948f451","x":-80,"y":-80,"width":416,"height":189,"type":"text","text":"Make a copy of a list:\n```\nlist_copy = L[:]\n```\n* this will not copy elements that are lists\nthere are times that you need to keep original"},
+		{"id":"a967da02ea8d2040","x":560,"y":-97,"width":572,"height":224,"type":"text","text":"* `del(L[index])` delete elements at a specific index\n* `L.pop(index)` remove element at a end of list (if no index, by default) or at a specific index, and return the remove element\n* `L.remove(element)` remove a specific element\n\t* Looks for element and remove it (mutation)\n\t* Remove first occurrence if element occurs multiple times\n\t* If element not in list, give error"},
+		{"id":"f1faf453f16ad045","x":560,"y":179,"width":354,"height":328,"type":"text","text":"Alias:\nassignment on a mutable object create alias, not a clone\n```\nl_alias = l\nl_clone/copy = l[:]\n```\n* Alias same object with different name\n* New pointer to same object"},
+		{"id":"ba3ed0af7e04a183","x":1080,"y":287,"width":729,"height":113,"type":"text","text":"When you pass a list as a parameter to a function, you are making an alias for that list\n* The actual parameter (function call) is an alias for a formal parameter (function definition)\n* This is the reason that you can mutate objects within function"},
+		{"id":"3ab3447c22e7a707","x":1060,"y":780,"width":220,"height":50,"type":"text","text":"Copy"},
+		{"id":"25dfb4b32e914500","x":1464,"y":440,"width":345,"height":306,"type":"text","text":"Shallow Copy:\ncopy at a top level\n* any mutable element won't get copy\n* Equivalent to `l_copy = l[:]`\n* Copy structure, not the elements\n```\nimport copy \nold_list = []\nnew_list = copy.copy(old_list)\n```"},
+		{"id":"85f11b3862ddd680","x":1464,"y":900,"width":335,"height":226,"type":"text","text":"Deep Copy:\nCopy every structure at every level\n```\nimport copy\nold_list = []\nnew_list = cope.deepcopy(old_list)\n```"}
+	],
+	"edges":[
+		{"id":"bb5540b10e154913","fromNode":"c90ab31882258830","fromSide":"right","toNode":"db4a750a0948f451","toSide":"left"},
+		{"id":"697991fc2f363435","fromNode":"db4a750a0948f451","fromSide":"right","toNode":"a967da02ea8d2040","toSide":"left","label":"Operation on List"},
+		{"id":"a83c9e00e9d62338","fromNode":"db4a750a0948f451","fromSide":"right","toNode":"f1faf453f16ad045","toSide":"left"},
+		{"id":"40adb712e8c8d73e","fromNode":"f1faf453f16ad045","fromSide":"right","toNode":"ba3ed0af7e04a183","toSide":"left"},
+		{"id":"c52ca9c462eaffbf","fromNode":"f1faf453f16ad045","fromSide":"right","toNode":"3ab3447c22e7a707","toSide":"left"},
+		{"id":"986f3b7307cbd42d","fromNode":"3ab3447c22e7a707","fromSide":"right","toNode":"25dfb4b32e914500","toSide":"left"},
+		{"id":"2fd305d84493a1fb","fromNode":"3ab3447c22e7a707","fromSide":"right","toNode":"85f11b3862ddd680","toSide":"left"}
+	]
+}

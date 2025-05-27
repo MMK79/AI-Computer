@@ -9,3 +9,4 @@
 * [[Lecture-09.canvas|Lecture-09]]
 * [[Lecture-10.canvas|Lecture-10]]
 * [[Lecture-11.canvas|Lecture-11]]
+* [[Lecture-12.canvas|Lecture-12]]

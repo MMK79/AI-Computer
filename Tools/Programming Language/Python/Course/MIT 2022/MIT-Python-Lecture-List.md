@@ -10,3 +10,4 @@
 * [[Lecture-10.canvas|Lecture-10]]
 * [[Lecture-11.canvas|Lecture-11]]
 * [[Lecture-12.canvas|Lecture-12]]
+* [[Lecture-13.canvas|Lecture-13]]

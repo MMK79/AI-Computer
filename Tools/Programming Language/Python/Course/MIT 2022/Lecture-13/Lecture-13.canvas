@@ -1,0 +1,33 @@
+{
+	"nodes":[
+		{"id":"f7ccaf38636b721b","x":-441,"y":-27,"width":250,"height":60,"type":"text","text":"Lecture-13"},
+		{"id":"86b1ff8be47ba3a8","x":60,"y":-260,"width":250,"height":60,"type":"text","text":"Exception"},
+		{"id":"72981502317c74a2","x":380,"y":-255,"width":477,"height":50,"type":"text","text":"When unexpected condition happens $\\rightarrow$ you get exception\n"},
+		{"id":"c5d5a55bfa1282c2","x":960,"y":-340,"width":406,"height":50,"type":"text","text":"You can just accept it and go through Debugging"},
+		{"id":"d0c5f6240565e2c0","x":960,"y":-180,"width":261,"height":50,"type":"text","text":"Write a code to handle them!"},
+		{"id":"746b2ed54e11e614","x":1420,"y":-381,"width":373,"height":452,"type":"text","text":"Handler code block\n```\ntry:\n\t<problamatic code>\nexcept:\n\t<how to handle the situation>\n```\n* Good place to handler(try, except block) is user input $\\xrightarrow{cause}$ pretty unpredictable\n* If everything is fine it's fine (try block), if something wrong still everything is fine (except block)\n* The moment a problem happen in try block, it will stop running code that exact moment (won't go any further), except block start running\n"},
+		{"id":"d6bbfc7841964731","x":2014,"y":-190,"width":374,"height":71,"type":"text","text":"Multiple exception:\nDifferent Exception for Different Errors"},
+		{"id":"5f9eaf48a90bcd8d","x":2014,"y":-31,"width":576,"height":205,"type":"text","text":"Other associated block that can be used with try block:\n* else:\nExecute when try block run with no exception (error)\n* finally:\nalways run, no matter what happen in other blocks (try, except, else)\n* useful for cleanup code"},
+		{"id":"f5c3d0114f486cfc","x":2654,"y":-375,"width":484,"height":440,"type":"text","text":"How to deal with exception (except block):\n* Fail silently:\nPut all your code in try block, put pass in except block\n* Return error value:\nCheck all values and have a default value ready for them $\\xrightarrow{but}$ to much of a complexity, and work\n* stop execution, signal error condition:\nTerminate Program but in Your own term $\\rightarrow$ better way to stop program, because; much easier to debug\n```\nraise Type_of_Error(\"your message\")\n```\n> [!important] With except your code still run, but in this way you stop it's run, but in your own way"},
+		{"id":"b85482d5f907f5fe","x":2014,"y":320,"width":250,"height":60,"type":"text","text":"Assertion:\nSpecial type of Exception"},
+		{"id":"223ef8ecbf90f709","x":3400,"y":254,"width":598,"height":192,"type":"text","text":"Assert statement raise an Assertion Error exception if assumption not met:\n```\nassert <statement that should be true>, \"massage if not true\"\n```\n* make your life and debugging easier\n* You can have multiple assert"},
+		{"id":"5e872711b6eb7617","x":2440,"y":306,"width":852,"height":89,"type":"text","text":"Contract between who write a function and whom using it $\\rightarrow$ docstring (Specification) $\\xrightarrow{but}$ no way to enforce it $\\xrightarrow{solution}$ Assertion: assumption on a state of computation are as expected"},
+		{"id":"c191a1feb4084063","x":2440,"y":600,"width":587,"height":211,"type":"text","text":"Good Defensive Programming tools:\n* You know where the bug is\n* Don't allow programmer to control response to unexpected condtions\n* Ensure execution halt when condition doesn't meet\n* good to use for checking input & output of function\n\t* But you can use them wherever you want"},
+		{"id":"cc791339651f8448","x":2440,"y":880,"width":531,"height":376,"type":"text","text":"Exception Vs. Assertion:\n* Exception: handling unexpected input\n\t* don't want to stop program\n\t* use-case: data input by user\n* Assertion: Enforce contract condition between user and coder\n\t* Supplement for testing\n\t* Check:\n\t\t* Types of values\n\t\t* Invariants on structure met\n\t\t* Constraint on returns\n\t\t* Violation of constrain on Function"}
+	],
+	"edges":[
+		{"id":"f9213ca0568582b9","fromNode":"f7ccaf38636b721b","fromSide":"right","toNode":"86b1ff8be47ba3a8","toSide":"left"},
+		{"id":"bad7cd662d9bec9e","fromNode":"86b1ff8be47ba3a8","fromSide":"right","toNode":"72981502317c74a2","toSide":"left"},
+		{"id":"1914a9afba85828f","fromNode":"72981502317c74a2","fromSide":"right","toNode":"c5d5a55bfa1282c2","toSide":"left"},
+		{"id":"8a2b4d9a2e7444a3","fromNode":"72981502317c74a2","fromSide":"right","toNode":"d0c5f6240565e2c0","toSide":"left"},
+		{"id":"0dbb60001bc721aa","fromNode":"d0c5f6240565e2c0","fromSide":"right","toNode":"746b2ed54e11e614","toSide":"left"},
+		{"id":"e425dbf7c37df70e","fromNode":"746b2ed54e11e614","fromSide":"right","toNode":"d6bbfc7841964731","toSide":"left"},
+		{"id":"0a8fcba392457652","fromNode":"746b2ed54e11e614","fromSide":"right","toNode":"5f9eaf48a90bcd8d","toSide":"left"},
+		{"id":"b56e6385055e8e2b","fromNode":"d6bbfc7841964731","fromSide":"right","toNode":"f5c3d0114f486cfc","toSide":"left"},
+		{"id":"cf22c5561c2b8738","fromNode":"746b2ed54e11e614","fromSide":"right","toNode":"b85482d5f907f5fe","toSide":"left"},
+		{"id":"ace4b82d5c2ec2a7","fromNode":"b85482d5f907f5fe","fromSide":"right","toNode":"5e872711b6eb7617","toSide":"left"},
+		{"id":"6dcb504765d63d6f","fromNode":"5e872711b6eb7617","fromSide":"right","toNode":"223ef8ecbf90f709","toSide":"left"},
+		{"id":"e9c14e206782a106","fromNode":"b85482d5f907f5fe","fromSide":"right","toNode":"c191a1feb4084063","toSide":"left"},
+		{"id":"957261608e8feadf","fromNode":"b85482d5f907f5fe","fromSide":"right","toNode":"cc791339651f8448","toSide":"left"}
+	]
+}

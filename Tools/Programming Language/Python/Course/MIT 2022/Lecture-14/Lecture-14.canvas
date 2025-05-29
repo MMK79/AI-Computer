@@ -1,0 +1,33 @@
+{
+	"nodes":[
+		{"id":"ddf51637764286c5","type":"text","text":"Idea: Instead of associating data with indices, associate data with names (other data types) $\\rightarrow$ Dictionary\n* instead of a complex system with multiple list, one data structure\n* You can index them directly","x":-160,"y":-81,"width":453,"height":172},
+		{"id":"ac98a45b09874124","type":"text","text":"Lecture-14","x":-460,"y":-25,"width":250,"height":60},
+		{"id":"140441ddcb7dfbdb","type":"text","text":"> [!important] Dictionary Value refers to the value associated with a key, Different from value of a variable","x":465,"y":200,"width":461,"height":79},
+		{"id":"4510b4cdfc4e8a4e","type":"text","text":"* Elements in Dictionary = Entry = Mapping = Key:Value\n* Dictionary map something (custom index/key) to something (element/value)\n* Stores pairs of data as an entry:\n\t* Key: Any hash-able immutable object\n\t* Values: Any data object \n```\nDictionay_name = {key:value}\n```","x":380,"y":-115,"width":630,"height":241},
+		{"id":"09c0747676c4670d","type":"text","text":"List:\nmap something (index) to something (element)\n* Strict version of Dictionary","x":499,"y":-340,"width":392,"height":109},
+		{"id":"2eba528825b491ff","type":"text","text":"List \\[], Tuple (), Dictionary {} (curly braces)","x":926,"y":-310,"width":361,"height":50},
+		{"id":"3236664851631b71","type":"text","text":"Dictionary Lookup:\ninstead of index (strict version of key) we use our key (custom index) $\\rightarrow$ return value associated to that key\n```\nDict_name[key] # return value of key\n```\n* If you lookup non-exist key $\\xrightarrow{get}$ KeyError\n* There is no way to look at values by lookup trough keys, values can be repeated\n* Most of times we store same type key:value, but you can mix match them","x":1107,"y":-137,"width":658,"height":286},
+		{"id":"20831b5e48beb9c4","type":"text","text":"Add:\n```\nDict_name[key]=value\n```\nChange:\n```\nDict_name[key] = new_value\n```\nDelete:\n```\ndel(Dict_name[key])\n```\n* Dictionary get muted\nTest: check if a key exist in a dictionary, with `in` keyword\n```\nkey in Dict_name\n```","x":2020,"y":-232,"width":496,"height":477},
+		{"id":"7caeea2233315b9b","type":"text","text":"Dict had no order (before Python 3.6), now have a guarantee order\n* `Dict_name.keys()` $\\rightarrow$ Iterable that contain keys in dictionary with dect_keys data type \n* `Dict_name.values()` $\\rightarrow$ Iterable that contain values in dictionary dect_values data type \n* `Dict_name.items()` $\\rightarrow$ Iterable that contain entry in dictionary dect_items data type \n\t* most useful one, contain tuples of your entry","x":2660,"y":-83,"width":720,"height":179},
+		{"id":"eb0bacbab7705e9b","type":"text","text":"Dictionary is mutable $\\xrightarrow{so}$ alias with `=` & copy with `copy.copy()`, `copy.deepcopy()`\n* Values: Any type of object can be use, can be duplicate\n* Keys: Hash-able immutable only, Unique\n\t* Be careful of using float as key, because of floating point error","x":2691,"y":172,"width":659,"height":146},
+		{"id":"09ea5d920a45ac89","type":"text","text":"Why only hash-able immutable?\n* Dictionary Store in a special way in memory\n* Python run a hash function on the key and convert it to an int number $\\rightarrow$ This int number represent memory location for the value of that key $\\rightarrow$ Every time you want to look at the value that associated with that key, python run the same hash function and get memory allocation location, then check it and get the value\n* Use mutable $\\xrightarrow{cause\\ problem}$ your key change $\\xrightarrow{so}$ same hash function, different result\n","x":3240,"y":360,"width":720,"height":190},
+		{"id":"315cdcfbcfeea430","x":1107,"y":318,"width":250,"height":60,"type":"text","text":"Dict vs. list"},
+		{"id":"ef78132dffd16933","x":1305,"y":560,"width":263,"height":211,"type":"text","text":"List:\n* Ordered sequence\n* Lookup element by index\n* Indices have order\n* Index is integer\n* Values can be any type"},
+		{"id":"da7cbad48e5a84b2","x":808,"y":560,"width":392,"height":211,"type":"text","text":"Dict:\n* No order\n* Lookup items (value) by another item (key)\n* Key is a hash-able mutable\n* Value can be any type\n* Match key:value"}
+	],
+	"edges":[
+		{"id":"fc8bf163e1f8e2a6","fromNode":"ac98a45b09874124","fromSide":"right","toNode":"ddf51637764286c5","toSide":"left"},
+		{"id":"30cb4333b00c3c88","fromNode":"ddf51637764286c5","fromSide":"right","toNode":"4510b4cdfc4e8a4e","toSide":"left"},
+		{"id":"9fee4ea63c4f7118","fromNode":"4510b4cdfc4e8a4e","fromSide":"bottom","toNode":"140441ddcb7dfbdb","toSide":"top"},
+		{"id":"c034ee43462473f1","fromNode":"09c0747676c4670d","fromSide":"bottom","toNode":"4510b4cdfc4e8a4e","toSide":"top"},
+		{"id":"bfe98a49875e2f03","fromNode":"2eba528825b491ff","fromSide":"bottom","toNode":"4510b4cdfc4e8a4e","toSide":"top"},
+		{"id":"4d1c8e958a99b6a8","fromNode":"4510b4cdfc4e8a4e","fromSide":"right","toNode":"3236664851631b71","toSide":"left"},
+		{"id":"a1a2fb30c18d69f4","fromNode":"3236664851631b71","fromSide":"right","toNode":"20831b5e48beb9c4","toSide":"left","label":"Operation on Dict"},
+		{"id":"420d1ee4294fcf0b","fromNode":"20831b5e48beb9c4","fromSide":"right","toNode":"7caeea2233315b9b","toSide":"left"},
+		{"id":"d94dcf26d69c32aa","fromNode":"20831b5e48beb9c4","fromSide":"right","toNode":"eb0bacbab7705e9b","toSide":"left"},
+		{"id":"856bee7b9d6ac04e","fromNode":"eb0bacbab7705e9b","fromSide":"bottom","toNode":"09ea5d920a45ac89","toSide":"left"},
+		{"id":"63f9adc7b38cd4ad","fromNode":"4510b4cdfc4e8a4e","fromSide":"bottom","toNode":"315cdcfbcfeea430","toSide":"left"},
+		{"id":"54ef52e70d079968","fromNode":"315cdcfbcfeea430","fromSide":"bottom","toNode":"ef78132dffd16933","toSide":"top"},
+		{"id":"911c12e22a2edc2e","fromNode":"315cdcfbcfeea430","fromSide":"bottom","toNode":"da7cbad48e5a84b2","toSide":"top"}
+	]
+}

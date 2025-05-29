@@ -11,3 +11,4 @@
 * [[Lecture-11.canvas|Lecture-11]]
 * [[Lecture-12.canvas|Lecture-12]]
 * [[Lecture-13.canvas|Lecture-13]]
+* [[Lecture-14.canvas|Lecture-14]]

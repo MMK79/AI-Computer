@@ -1,0 +1,29 @@
+{
+	"nodes":[
+		{"id":"e7e0061ba82fce2b","type":"text","text":"Lecture-15","x":-526,"y":-8,"width":250,"height":60},
+		{"id":"9d3fadb6f5ce16d5","type":"text","text":"Loops $\\rightarrow$ Iterative Algorithms:\n* Have a state variable:\n\t* update base on set of rules, through each run of iteration","x":-160,"y":-34,"width":530,"height":113},
+		{"id":"28aa787b5317d26b","type":"text","text":"Steps/Thought we need to take/have to create this State Variables:\n* What is changing each time in loop, and how it changes?\n* How do I keep track of it?\n* When do I stop?\n* Where is the result?","x":420,"y":-82,"width":492,"height":209},
+		{"id":"0c1ef1e5bf1d943f","type":"text","text":"Is there something constantly we are repeating?","x":1100,"y":-7,"width":399,"height":50},
+		{"id":"cd551a0b9578c0ce","type":"text","text":"We can think of that problem Recursively","x":1620,"y":-12,"width":348,"height":60},
+		{"id":"da13a4900f910001","type":"text","text":"Decompose Original problem:\n* Something you know\n* The same problem but a little smaller\n> [!important] Break down Until you know the answer, then build up from that point","x":2080,"y":-112,"width":350,"height":260},
+		{"id":"f99567803b532ff6","type":"text","text":"Recursion:\n* Recursive Step:\nDecide How to reduce the problem into simpler/smaller version of the same problem, with simple operation\n> [!important] if we only had this, we would never stop, Infinity!\n* Base Case:\nKeep reducing problem until reach a simple case that can be solved directly","x":2540,"y":-150,"width":479,"height":337},
+		{"id":"8d5e7155ea54181a","type":"text","text":"Recursion in a simple way: Divide-and-Conquer, Decrease-and-Conquer","x":3140,"y":-150,"width":591,"height":54},
+		{"id":"e6cc0d08595623ae","type":"text","text":"Recursion Semantically / Program: Function call itself\n* No infinite recursion\n\t* Need base block, solves directly\n* Solve the same problem on some other input","x":3140,"y":80,"width":434,"height":145},
+		{"id":"1564890a67ee82db","type":"text","text":"> [!important] In recursion each function call is completely separate:\n> Separate scope/environment\n> Separate variables\n> Fully independent\n\n* Each recursive call create is own scope/environment\n* Binding of variables in a scope will not change by recursive call of same function $\\rightarrow$ it's for it's own scope/environment\n* Values of variable binding shadow binding in other frames $\\rightarrow$ they belong to their own scope\n* flow of control passes back to previous scope once function call return value $\\rightarrow$ Earlier function calls wait for the result of function call inside themselves","x":3700,"y":-56,"width":517,"height":418},
+		{"id":"99acbe34ccd51751","type":"file","file":"Tools/Programming Language/Python/Course/MIT 2022/Lecture-15/Recursion.md","x":3157,"y":582,"width":400,"height":400},
+		{"id":"9ddff91f762b5a28","type":"text","text":"* Most problem don't need recursion\n* Some of them become so easy with recursion:\n\t* You don't know how far/deep you gonna go:\n\t\t* Searching in file system\n\t\t* Calculator: don't know how many input, how many ()","x":3800,"y":702,"width":533,"height":161}
+	],
+	"edges":[
+		{"id":"29b79198c9c2776f","fromNode":"e7e0061ba82fce2b","fromSide":"right","toNode":"9d3fadb6f5ce16d5","toSide":"left"},
+		{"id":"e4faad193ea56b6a","fromNode":"9d3fadb6f5ce16d5","fromSide":"right","toNode":"28aa787b5317d26b","toSide":"left"},
+		{"id":"27a892006451de6d","fromNode":"28aa787b5317d26b","fromSide":"right","toNode":"0c1ef1e5bf1d943f","toSide":"left","label":"Ask yourself"},
+		{"id":"1bcd31b115ec3bbc","fromNode":"0c1ef1e5bf1d943f","fromSide":"right","toNode":"cd551a0b9578c0ce","toSide":"left","label":"If yes!"},
+		{"id":"486777be4e5a51d9","fromNode":"cd551a0b9578c0ce","fromSide":"right","toNode":"da13a4900f910001","toSide":"left","label":"How?"},
+		{"id":"2f101c1429f6f013","fromNode":"da13a4900f910001","fromSide":"right","toNode":"f99567803b532ff6","toSide":"left"},
+		{"id":"5e5901693fcbff1e","fromNode":"f99567803b532ff6","fromSide":"right","toNode":"8d5e7155ea54181a","toSide":"left"},
+		{"id":"64ba0dfed2c276d2","fromNode":"f99567803b532ff6","fromSide":"right","toNode":"e6cc0d08595623ae","toSide":"left"},
+		{"id":"799897dca8ce8188","fromNode":"e6cc0d08595623ae","fromSide":"right","toNode":"1564890a67ee82db","toSide":"left"},
+		{"id":"6bfefc09a4e9ebd6","fromNode":"e6cc0d08595623ae","fromSide":"bottom","toNode":"99acbe34ccd51751","toSide":"top","label":"Recursion vs. Loop"},
+		{"id":"d10cb63ffda54595","fromNode":"99acbe34ccd51751","fromSide":"right","toNode":"9ddff91f762b5a28","toSide":"left","label":"Usecase?"}
+	]
+}

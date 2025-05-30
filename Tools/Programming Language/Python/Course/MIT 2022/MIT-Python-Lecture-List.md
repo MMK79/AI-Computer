@@ -12,3 +12,5 @@
 * [[Lecture-12.canvas|Lecture-12]]
 * [[Lecture-13.canvas|Lecture-13]]
 * [[Lecture-14.canvas|Lecture-14]]
+* [[Lecture-15.canvas|Lecture-15]]
+* [[Lecture-16.canvas|Lecture-16]]

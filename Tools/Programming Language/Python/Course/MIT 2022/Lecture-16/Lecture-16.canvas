@@ -1,0 +1,23 @@
+{
+	"nodes":[
+		{"id":"8599804d80c803db","x":-240,"y":-186,"width":530,"height":143,"type":"text","text":"Fibonacci:\nRecursion with multiple base case, and multiple same function call\n* each function call will stop at the first function call\n\t* it will not continue until it get return"},
+		{"id":"9fdb738145d871ac","x":340,"y":-167,"width":1440,"height":106,"type":"text","text":"Inefficient Recursion Fibonacci(34): 11,405,773 function call $\\xrightarrow{because}$ no memory use, recalculation of already calculated things\nefficient Recursion Fibonacci(34): 65 function call $\\xrightarrow{because}$ Memo-ize version, use of dictionary as a memory to store things, lookup into mutate dictionary (the value get add to it every time)"},
+		{"id":"18a789cbc5855856","x":859,"y":0,"width":402,"height":60,"type":"text","text":"Memo-ize code: try to use memo to store values"},
+		{"id":"485d9b9905339258","x":-240,"y":160,"width":261,"height":50,"type":"text","text":"Recursion on Non-Numerical"},
+		{"id":"5b02388cf46fc38c","x":-560,"y":-144,"width":131,"height":60,"type":"text","text":"Lecture-16"},
+		{"id":"272e7f6a08091c68","x":90,"y":155,"width":250,"height":60,"type":"text","text":"List (naturally recursive)\nsame as strings, tuples"},
+		{"id":"c3ed1a174e3a5b95","x":440,"y":129,"width":674,"height":113,"type":"text","text":"Each case(base-case, recursive step) must return same type of object because:\n* function returns build upon each other\n\t* So: different type of return cause you to get MissMatch error in your run time"},
+		{"id":"3a4c028eec2a0432","x":21,"y":340,"width":532,"height":50,"type":"text","text":"Use Recursion when you don't know how far you (loop) need to go"},
+		{"id":"93293a01da54d2ca","x":706,"y":251,"width":708,"height":228,"type":"text","text":"* There is a low possibility that you can get recursion right on first try:\n\t* you can have multiple base case\n\t* you can break problem into many if/elif\n\t\t* as long as making progress toward base case recursively \n* Recursion give you a different way of thinking\n\t* most problem don't need recursion and be done with loops\n* Your base case and recursive steps in recursion function must return same object type"}
+	],
+	"edges":[
+		{"id":"5328f1017a949766","fromNode":"5b02388cf46fc38c","fromSide":"right","toNode":"8599804d80c803db","toSide":"left"},
+		{"id":"01b4c87fb9eb276f","fromNode":"8599804d80c803db","fromSide":"right","toNode":"9fdb738145d871ac","toSide":"left"},
+		{"id":"4286dda33448a051","fromNode":"9fdb738145d871ac","fromSide":"bottom","toNode":"18a789cbc5855856","toSide":"top"},
+		{"id":"a5f6417e40f35f7c","fromNode":"5b02388cf46fc38c","fromSide":"right","toNode":"485d9b9905339258","toSide":"left"},
+		{"id":"e17cb2f34a8b7aab","fromNode":"485d9b9905339258","fromSide":"right","toNode":"272e7f6a08091c68","toSide":"left"},
+		{"id":"85f9a9d388381fd1","fromNode":"272e7f6a08091c68","fromSide":"right","toNode":"c3ed1a174e3a5b95","toSide":"left"},
+		{"id":"f973ec070b30fa0b","fromNode":"485d9b9905339258","fromSide":"bottom","toNode":"3a4c028eec2a0432","toSide":"left"},
+		{"id":"4de093b6430569ab","fromNode":"3a4c028eec2a0432","fromSide":"right","toNode":"93293a01da54d2ca","toSide":"left"}
+	]
+}

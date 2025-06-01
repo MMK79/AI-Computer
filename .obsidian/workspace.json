@@ -11,14 +11,17 @@
             "id": "e30d53aac85b769b",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "Tools/Programming Language/Python/Course/MIT 2022/MIT-Python-Lecture-List.md",
-                "mode": "source",
-                "source": false
+                "file": "Tools/Programming Language/Python/Course/MIT 2022/Lecture-13/Lecture-13.canvas",
+                "viewState": {
+                  "x": 3202.9915865894964,
+                  "y": 505.22980731786765,
+                  "zoom": -0.7480405114261441
+                }
               },
-              "icon": "lucide-file",
-              "title": "MIT-Python-Lecture-List"
+              "icon": "lucide-layout-dashboard",
+              "title": "Lecture-13"
             }
           }
         ]
@@ -167,6 +170,10 @@
   },
   "active": "d0890856a4ba7a7f",
   "lastOpenFiles": [
+    "Tools/Programming Language/Python/Course/MIT 2022/Lecture-18/lecture-18.ipynb",
+    "Tools/Programming Language/Python/Course/MIT 2022/Lecture-18/Lecture-18.canvas",
+    "Tools/Programming Language/Python/Course/MIT 2022/Lecture-18",
+    "Tools/Programming Language/Python/Course/MIT 2022/MIT-Python-Lecture-List.md",
     "Tools/Programming Language/Python/Course/MIT 2022/Lecture-17/lecture-17.ipynb",
     "Tools/Programming Language/Python/Course/MIT 2022/Lecture-17/Lecture-17.canvas",
     "Tools/Programming Language/Python/Course/MIT 2022/Lecture-17",
@@ -176,16 +183,13 @@
     "Tools/Programming Language/Python/Course/MIT 2022/Lecture-16/Lecture-16.canvas",
     "Tools/Programming Language/Python/Course/MIT 2022/Lecture-16",
     "Tools/Programming Language/Python/Course/MIT 2022/Lecture-15/Lecture-15.canvas",
-    "Tools/Programming Language/Python/Course/MIT 2022/MIT-Python-Lecture-List.md",
     "Tools/Programming Language/Python/Course/MIT 2022/Lecture-15/lecture-15.ipynb",
     "Tools/Programming Language/Python/Course/MIT 2022/Lecture-15/Recursion.md",
     "Tools/Programming Language/Python/Course/MIT 2022/Lecture-15",
     "Tools/Programming Language/Python/Course/MIT 2022/Lecture-14/lecture-14.ipynb",
     "Tools/Programming Language/Python/Course/MIT 2022/Lecture-14/Lecture-14.canvas",
     "Tools/Programming Language/Python/Course/MIT 2022/Lecture-14",
-    "Tools/Programming Language/Python/Course/MIT 2022/Lecture-13/lecture-13.ipynb",
     "Tools/Programming Language/Python/Course/MIT 2022/Lecture-13/Lecture-13.canvas",
-    "Tools/Programming Language/Python/Course/MIT 2022/Lecture-13",
     "Tools/Editor/VIM.md",
     "Tools/Editor/NeoVim-TJ.md",
     "Tools/Editor/NeoVim-Primeagen.md",
@@ -193,7 +197,6 @@
     "Tools/Programming Language/Python/Course/MIT 2022/Lecture-12/Lecture-12.canvas",
     "Tools/Programming Language/Python/Course/MIT 2022/Lecture-07/Lecture-07.canvas",
     "Tools/Programming Language/Python/Course/MIT 2022/Lecture-11/Lecture-11.canvas",
-    "Tools/Programming Language/Python/Course/MIT 2022/Lecture-10/Lecture-10.canvas",
     "Tools/Programming Language/Python/Python Content List.md",
     "Tools/Programming Language/Python/Course/MIT 2022/Lecture-04/Guess-and-Check-Implementation-Comparison.md",
     "Tools/Programming Language/Python/Course/MIT 2022/Lecture-03/While Loop.md",

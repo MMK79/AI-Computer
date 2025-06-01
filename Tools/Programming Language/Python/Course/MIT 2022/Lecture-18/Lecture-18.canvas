@@ -1,0 +1,29 @@
+{
+	"nodes":[
+		{"id":"b44124887754d01e","x":-497,"y":-61,"width":250,"height":60,"type":"text","text":"Lecture-18"},
+		{"id":"e82667cafa548394","x":1200,"y":-546,"width":250,"height":60,"type":"text","text":"Class Definition vs. Use"},
+		{"id":"a043ee4016496b01","x":1200,"y":-116,"width":672,"height":118,"type":"text","text":"New class $\\xrightarrow{have}$ uninformative print representation by default, to change it:\n* Define `__str__` method\n\t* This is the method that get call when you write `print()` in python"},
+		{"id":"c28622e5cdb2e4bf","x":1580,"y":-806,"width":520,"height":209,"type":"text","text":"Definition:\nDefines data and methods common across all instances\n* Class name is the type\n* Class defined generally\n\t* Need `self` to refer to a non-exist instance\n\t\t* `self` is a parameter to methods in class definition"},
+		{"id":"d2171f49a6971bcb","x":1580,"y":-446,"width":361,"height":143,"type":"text","text":"Use:\nInstance has a structure of the class\n* instance is one specific object\n\t* Different values for each instance"},
+		{"id":"ea4679b96f0a56e3","x":1200,"y":47,"width":423,"height":86,"type":"text","text":"Checking types:\ninstead of `type(variable1) == type(variable2)`\nyou can use `isinstance(variable1, variable2)`"},
+		{"id":"1f2c49f651deac70","x":1200,"y":207,"width":691,"height":50,"type":"text","text":"Abstraction at work $\\xrightarrow{usecase}$ Your first instance make clear what method will operation call"},
+		{"id":"f2efae9daf49d5a6","x":-120,"y":-303,"width":503,"height":79,"type":"text","text":"Dunder Methods/Magic Methods/Double Underscore Methods\n* `self.variable` is a data Attribute\n"},
+		{"id":"e3464fe3ad8f1cd8","x":560,"y":-541,"width":551,"height":50,"type":"text","text":"Creating instance $\\rightarrow$ make an actual object of a class/type in memory"},
+		{"id":"f8ea68c9c120c53e","x":560,"y":-113,"width":496,"height":112,"type":"text","text":"Shorthand notation get replace by methods behind the scene\n* You can override these to work with your class\n\t* Whit use of Dunder Methods"},
+		{"id":"7fd3631a283bb355","x":646,"y":-426,"width":380,"height":109,"type":"text","text":"This Object can get manipulated, how?\nby use of dot notation:\n* Access data attribute and data methodes"},
+		{"id":"fa5506642af65ba1","x":-120,"y":90,"width":510,"height":221,"type":"text","text":"Why OOP bundle data with behavior?\n* Code is organized and modular\n* Code is easy to maintain\n* Easy to build upon objects, to create more complex objects\n* Decomposition-and-Abstraction:\n\t* You can use objects constantly"}
+	],
+	"edges":[
+		{"id":"c537e24a2342a762","fromNode":"b44124887754d01e","fromSide":"right","toNode":"f2efae9daf49d5a6","toSide":"left"},
+		{"id":"46a158da2840a682","fromNode":"f2efae9daf49d5a6","fromSide":"right","toNode":"e3464fe3ad8f1cd8","toSide":"left"},
+		{"id":"e530757a0b0df390","fromNode":"e3464fe3ad8f1cd8","fromSide":"bottom","toNode":"7fd3631a283bb355","toSide":"top"},
+		{"id":"97a767962d4e4622","fromNode":"e3464fe3ad8f1cd8","fromSide":"right","toNode":"e82667cafa548394","toSide":"left"},
+		{"id":"b3517a4606ab465b","fromNode":"e82667cafa548394","fromSide":"right","toNode":"c28622e5cdb2e4bf","toSide":"left"},
+		{"id":"1669642642bc6e53","fromNode":"e82667cafa548394","fromSide":"right","toNode":"d2171f49a6971bcb","toSide":"left"},
+		{"id":"0352c7127b70e9a0","fromNode":"f2efae9daf49d5a6","fromSide":"right","toNode":"f8ea68c9c120c53e","toSide":"left"},
+		{"id":"e0c00724bab27b55","fromNode":"f8ea68c9c120c53e","fromSide":"right","toNode":"a043ee4016496b01","toSide":"left"},
+		{"id":"c79345aa410c7f02","fromNode":"f8ea68c9c120c53e","fromSide":"right","toNode":"ea4679b96f0a56e3","toSide":"left"},
+		{"id":"a35631b07674537d","fromNode":"f8ea68c9c120c53e","fromSide":"right","toNode":"1f2c49f651deac70","toSide":"left"},
+		{"id":"6aa8f2119efc19fa","fromNode":"b44124887754d01e","fromSide":"right","toNode":"fa5506642af65ba1","toSide":"left"}
+	]
+}

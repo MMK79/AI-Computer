@@ -1,0 +1,32 @@
+{
+	"nodes":[
+		{"id":"ac579d6d5b23dae2","type":"text","text":"# Database","x":-296,"y":-237,"width":190,"height":60},
+		{"id":"d1561b4db4bf8fd1","type":"text","text":"interact with Data","x":20,"y":-237,"width":192,"height":60},
+		{"id":"5edf571dbac36bf4","type":"text","text":"Collection of data organized for creating, reading, updating, deleting,","x":-61,"y":-420,"width":355,"height":82},
+		{"id":"9ab9cab65f96ff19","type":"text","text":"Scaling, update data frequently, speed, ...","x":440,"y":-237,"width":250,"height":60},
+		{"id":"4d21a91d8e70c15a","type":"text","text":"store information","x":20,"y":-43,"width":188,"height":60},
+		{"id":"cb57b977d4a774ce","type":"text","text":"## Tables","x":-269,"y":-43,"width":137,"height":60},
+		{"id":"e6e4dd660ef3d612","type":"text","text":"### Row\nEach row is one item\n### Column\nGive information about attribute of items in that column ","x":380,"y":-120,"width":464,"height":222},
+		{"id":"2f5daf118dceae4e","type":"text","text":"* Oracle\n* Mysql (open-source)\n* Postgresql (open-source)\n* Sqlite (open-source)\n* mangodb\n* access\n* ...","x":468,"y":149,"width":376,"height":233},
+		{"id":"7df70bb167116b24","type":"text","text":"## Database Management System (DBMS):\na software which enable you to interact with database","x":-296,"y":223,"width":556,"height":85},
+		{"id":"d52b70a071b466a2","type":"text","text":"money, computation, objective trade-off","x":531,"y":480,"width":250,"height":60},
+		{"id":"a1543c699e6a6ed5","type":"text","text":"### SQL (Structured Query Language):\na language to interact with database","x":-225,"y":356,"width":413,"height":84},
+		{"id":"bd564ae507a29d27","type":"text","text":"#### Querying:\nasking question from data","x":-144,"y":496,"width":252,"height":88},
+		{"id":"f32237b6f7453671","type":"text","text":"#### Tools:\nVS code (IDE)\nSqlite\n#### Personal Tools:\n[[NeoVim-Primeagen]]\nkickstart\nvim-dadbod (plugin)\n[vim-dadbod-ui (plugin)](https://github.com/kristijanhusak/vim-dadbod-ui)\nvim-dadbod-ui-compelition (plugin)","x":-240,"y":640,"width":443,"height":348}
+	],
+	"edges":[
+		{"id":"8b8264fdbc65df17","fromNode":"ac579d6d5b23dae2","fromSide":"right","toNode":"d1561b4db4bf8fd1","toSide":"left","label":"tool to"},
+		{"id":"2af820b18e6770c6","fromNode":"ac579d6d5b23dae2","fromSide":"bottom","toNode":"cb57b977d4a774ce","toSide":"top","label":"have"},
+		{"id":"075ce7d43fed0999","fromNode":"cb57b977d4a774ce","fromSide":"right","toNode":"4d21a91d8e70c15a","toSide":"left","label":"which"},
+		{"id":"10001220fdcfa517","fromNode":"4d21a91d8e70c15a","fromSide":"right","toNode":"e6e4dd660ef3d612","toSide":"left","label":"that have"},
+		{"id":"69547ca53b296aac","fromNode":"ac579d6d5b23dae2","fromSide":"top","toNode":"5edf571dbac36bf4","toSide":"left"},
+		{"id":"325a3f6f9d59e0f4","fromNode":"d1561b4db4bf8fd1","fromSide":"top","toNode":"5edf571dbac36bf4","toSide":"bottom"},
+		{"id":"de4e17904de0dd2b","fromNode":"d1561b4db4bf8fd1","fromSide":"right","toNode":"9ab9cab65f96ff19","toSide":"left","label":"advantages"},
+		{"id":"c8b033634a40ee66","fromNode":"ac579d6d5b23dae2","fromSide":"left","toNode":"7df70bb167116b24","toSide":"left"},
+		{"id":"a29df7ab24345b63","fromNode":"7df70bb167116b24","fromSide":"right","toNode":"2f5daf118dceae4e","toSide":"left","label":"examples"},
+		{"id":"83e38ab1225afaf1","fromNode":"2f5daf118dceae4e","fromSide":"bottom","toNode":"d52b70a071b466a2","toSide":"top","label":"choosing database is"},
+		{"id":"b974baf9459326f8","fromNode":"7df70bb167116b24","fromSide":"bottom","toNode":"a1543c699e6a6ed5","toSide":"top"},
+		{"id":"725a4ecb627458cd","fromNode":"a1543c699e6a6ed5","fromSide":"bottom","toNode":"bd564ae507a29d27","toSide":"top"},
+		{"id":"4764b12009f50d07","fromNode":"bd564ae507a29d27","fromSide":"bottom","toNode":"f32237b6f7453671","toSide":"top"}
+	]
+}

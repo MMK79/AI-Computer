@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tools/Programming Language/Python/Course/MIT 2022/MIT-Python-Lecture-List.md",
+                "file": "Tools/Database/Database-Content-list.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "MIT-Python-Lecture-List"
+              "title": "Database-Content-list"
             }
           }
         ]
@@ -165,8 +165,16 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "d0890856a4ba7a7f",
+  "active": "cc0486de04985eef",
   "lastOpenFiles": [
+    "Tools/Database/Course/CS50/CS50-Content-list.md",
+    "Tools/Database/Database-Content-list.md",
+    "Tools/Programming Language/Python/Course/MIT 2022/MIT-Python-Lecture-List.md",
+    "Tools/Database/Concept/General-Components-of-Database.md",
+    "Tools/Database/Concept",
+    "Tools/Database/Course/CS50",
+    "Tools/Database/Course",
+    "Tools/Database",
     "Tools/Programming Language/Python/Course/MIT 2022/Lecture-19/lecture-19.ipynb",
     "Tools/Programming Language/Python/Course/MIT 2022/Lecture-19/Lecture-19.canvas",
     "Tools/Programming Language/Python/Course/MIT 2022/Lecture-19",
@@ -174,19 +182,13 @@
     "Tools/Programming Language/Python/Course/MIT 2022/Lecture-18/lecture-18.ipynb",
     "Tools/Programming Language/Python/Course/MIT 2022/Lecture-18/Lecture-18.canvas",
     "Tools/Programming Language/Python/Course/MIT 2022/Lecture-18",
-    "Tools/Programming Language/Python/Course/MIT 2022/MIT-Python-Lecture-List.md",
     "Tools/Programming Language/Python/Course/MIT 2022/Lecture-17/lecture-17.ipynb",
     "Tools/Programming Language/Python/Course/MIT 2022/Lecture-17/Lecture-17.canvas",
     "Tools/Programming Language/Python/Course/MIT 2022/Lecture-17",
-    "Tools/Programming Language/Python/Course/MIT 2022/Lecture-16/lecture-16.ipynb",
     "Tools/Programming Language/Python/Course/MIT 2022/Lecture-16/Lecture-16 1.canvas",
-    "Tools/Programming Language/Python/Course/MIT 2022/Lecture-16/lecture-16 1.ipynb",
     "Tools/Programming Language/Python/Course/MIT 2022/Lecture-16/Lecture-16.canvas",
-    "Tools/Programming Language/Python/Course/MIT 2022/Lecture-16",
     "Tools/Programming Language/Python/Course/MIT 2022/Lecture-15/Lecture-15.canvas",
-    "Tools/Programming Language/Python/Course/MIT 2022/Lecture-15/lecture-15.ipynb",
     "Tools/Programming Language/Python/Course/MIT 2022/Lecture-15/Recursion.md",
-    "Tools/Programming Language/Python/Course/MIT 2022/Lecture-15",
     "Tools/Programming Language/Python/Course/MIT 2022/Lecture-14/Lecture-14.canvas",
     "Tools/Editor/VIM.md",
     "Tools/Editor/NeoVim-TJ.md",
@@ -214,8 +216,6 @@
     "Artificial Intelligence/Machine Learning/Course/Yaser Abu-Mostafa - Caltech/Lecture-01/Attachments/Inner-Product.png",
     "Artificial Intelligence/Machine Learning/Course/Yaser Abu-Mostafa - Caltech/Lecture-02/Lecture-02.md",
     "Artificial Intelligence/Computer/Tools/Git/The Primeagen.md",
-    "Artificial Intelligence/Computer/Tools/Programming/Editor/NeoVim.md",
-    "Artificial Intelligence/Computer/Tools/Git/Content List.md",
     "Artificial Intelligence/Mathematics/Calculus/Course/MIT/ProblemSet + Solutions/PS-01/Attachments/different-type-of-symmetry.png",
     "Master/Thesis/attachments/StrangeLoopCanon-AI-IQtest.png",
     "Master/Thesis/attachments/Quality-&-Context-ArtificialAnalysis.png",

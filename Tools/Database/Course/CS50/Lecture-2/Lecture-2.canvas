@@ -1,0 +1,41 @@
+{
+	"nodes":[
+		{"id":"433ab89e099ed8a7","type":"text","text":"Lecture-02","x":-1060,"y":-141,"width":250,"height":60},
+		{"id":"638ba109376d2f14","type":"text","text":"Designing your own Database and Schema","x":-720,"y":-136,"width":362,"height":50},
+		{"id":"ce4d8a46de08490e","type":"text","text":"Storage Class:\nIndividual Values, 5\n* Null: Nothing\n* INTEGER\n* REAL: float\n* TEXT: strings\n* BLOB: stands for \"Binary Large Object\", useful for data that have structure that we don't want to mess around, like; video, image, etc. ","x":1400,"y":-259,"width":540,"height":295},
+		{"id":"8deed3990910fcd5","type":"text","text":"Type Affinities: A column (Individual column) have multiple data type in Sqlite\n* NUMERIC: contain both integer and real \n* TEXT\n* INTEGER\n* REAL\n* BLOB\n> [!important] Type Affinity of a columns is prior to Storage Classes and it will convert them to it's own affinity","x":2131,"y":-74,"width":519,"height":345},
+		{"id":"6e4b0a229ec370ac","type":"text","text":"Different types of integer:\n* 0 byte integer\n* 1 byte integer\n* 2 byte integer\n* 3 byte integer\n* 4 byte integer\n* 6 byte integer\n* 8 byte integer\n> [!important] Sqlite will handle it himself, you just say that you want integer","x":2140,"y":-539,"width":301,"height":394},
+		{"id":"f3edccba4813e99c","type":"text","text":"Challenge, same data, different representation:\n* 10(int): don't have a unit, not a good representation\n* 0.10(float): not precise, floating point error\n* $0.10 (text): can't do subtraction, addition etc.","x":2520,"y":-414,"width":453,"height":145},
+		{"id":"ea6bfdc8bb3b3a3c","type":"text","text":"Normalizing:\nreduce redundancy, break big tables into smaller ones: where each entity be the part of its own table\n* Have different types: first, second, third, ...\n* Basic Brick Principle: if you add a column to an entity table, that column should only be about that entity","x":520,"y":-499,"width":390,"height":288},
+		{"id":"4285048a14332348","type":"text","text":"`CREATE TABLE \"name\"` : Command to create table","x":520,"y":-139,"width":436,"height":55},
+		{"id":"24006b02bc572e13","type":"text","text":"Data Types vs. Storage Classes:\nSimilar but Different","x":1040,"y":-139,"width":284,"height":56},
+		{"id":"00ac90d153b9f320","type":"text","text":"`DROP TABLE \"name\"` = Delete it","x":576,"y":-14,"width":324,"height":50},
+		{"id":"87b03f16691b1e5d","type":"text","text":"Schema:\n`.schema`: command to see how tables made\n`.schema table_name`: To see how a specific table is made\n* Schema tells you, what table, what columns, what data","x":-200,"y":-181,"width":518,"height":139},
+		{"id":"9d301096c90b5409","x":2131,"y":541,"width":250,"height":112,"type":"text","text":"Constraint:\n* Type Contraint\n* Column Constraint"},
+		{"id":"72407062dae8d16d","x":2520,"y":305,"width":448,"height":292,"type":"text","text":"Type Constraint: Some values need to be a certain way\n* Primary key\n* Foreign Key\n> [!important] Sqlite will give you a primary key by default call raw-id\n> It is implicit (can't see it), but can query it\n* You can have a join primary key constraint"},
+		{"id":"f6b11975c3dad0ed","x":2520,"y":653,"width":483,"height":396,"type":"text","text":"Column Constraint:\nConstraint that only apply to a certain column\n* `CHECK`: Condition\n* `DEFAUTL`: If you don't supply a value it will use default\n* `NOT NULL`: You can't insert null value\n\t* For columns that are not Primary/Foreign key and should always have value\n* `UNIQUE`: every row is a unique value\n> [!important] When you apply Primary key or Foreign key\n> It will apply some constraint itself to that column; `NOT NULL`, `UNIQUE`"},
+		{"id":"3a09b3d00e0b6d8b","type":"text","text":"`.read` command: run sql file","x":584,"y":240,"width":262,"height":53},
+		{"id":"e2316e27030b7dd6","x":607,"y":100,"width":263,"height":50,"type":"text","text":"`ALTER TABLE \"table_name\"`"},
+		{"id":"d2be932891f10325","x":981,"y":26,"width":402,"height":198,"type":"text","text":"Alter/change/update the current created table\n* `RENAME TO \"new_name\"`\n* `ADD COLUMN`\n* `RENAME COLUMN \"name_of_the_column\" to \"new_name_of_the_column\"\n* `DROP COLUMN \"name_of_the_column\"`"},
+		{"id":"08b9845329e53020","x":-178,"y":100,"width":475,"height":317,"type":"text","text":"* `CURRENT_TIMESTAMP`produce value of the current time\n> [!warning] If you have a table with a primary key which is used in another table as a foreign key and you to drop this primary key you get a warning\n> you need to delete foreign key which referring this primary key, then delete this table\n* it is easy to convert sqlite to mysql or postgresql\n* default type affinity for a columns in Numeric"}
+	],
+	"edges":[
+		{"id":"f78d22481ba38d6e","fromNode":"433ab89e099ed8a7","fromSide":"right","toNode":"638ba109376d2f14","toSide":"left"},
+		{"id":"7462a37f42782f50","fromNode":"638ba109376d2f14","fromSide":"right","toNode":"87b03f16691b1e5d","toSide":"left"},
+		{"id":"c78ab91e5ecd9c3f","fromNode":"87b03f16691b1e5d","fromSide":"right","toNode":"ea6bfdc8bb3b3a3c","toSide":"left"},
+		{"id":"f50dd6ded9b93801","fromNode":"87b03f16691b1e5d","fromSide":"right","toNode":"4285048a14332348","toSide":"left"},
+		{"id":"f468f0fca35b5cab","fromNode":"4285048a14332348","fromSide":"right","toNode":"24006b02bc572e13","toSide":"left"},
+		{"id":"4f156dbab923f9a2","fromNode":"24006b02bc572e13","fromSide":"right","toNode":"ce4d8a46de08490e","toSide":"left"},
+		{"id":"c16864b4fadcb8c9","fromNode":"ce4d8a46de08490e","fromSide":"right","toNode":"6e4b0a229ec370ac","toSide":"left"},
+		{"id":"648c516ad5475784","fromNode":"6e4b0a229ec370ac","fromSide":"right","toNode":"f3edccba4813e99c","toSide":"left"},
+		{"id":"72b3cf87585d3f7c","fromNode":"ce4d8a46de08490e","fromSide":"right","toNode":"8deed3990910fcd5","toSide":"left"},
+		{"id":"f5f0a67177e2a22d","fromNode":"4285048a14332348","fromSide":"bottom","toNode":"00ac90d153b9f320","toSide":"top"},
+		{"id":"a26615fbe1fb3c7c","fromNode":"87b03f16691b1e5d","fromSide":"right","toNode":"3a09b3d00e0b6d8b","toSide":"left"},
+		{"id":"f0b03e2d53a1f19b","fromNode":"ce4d8a46de08490e","fromSide":"right","toNode":"9d301096c90b5409","toSide":"left"},
+		{"id":"a28febb6056ea89c","fromNode":"9d301096c90b5409","fromSide":"right","toNode":"72407062dae8d16d","toSide":"left"},
+		{"id":"71ecf6b73e68c630","fromNode":"9d301096c90b5409","fromSide":"right","toNode":"f6b11975c3dad0ed","toSide":"left"},
+		{"id":"fe933c8fea1e29fd","fromNode":"00ac90d153b9f320","fromSide":"bottom","toNode":"e2316e27030b7dd6","toSide":"top"},
+		{"id":"1f5c65b05022fa42","fromNode":"e2316e27030b7dd6","fromSide":"right","toNode":"d2be932891f10325","toSide":"left"},
+		{"id":"b8039e066bcd3ef5","fromNode":"638ba109376d2f14","fromSide":"right","toNode":"08b9845329e53020","toSide":"left"}
+	]
+}

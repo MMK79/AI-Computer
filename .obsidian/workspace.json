@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tools/Database/Database-Content-list.md",
+                "file": "Tools/Database/Course/CS50/CS50-Content-list.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Database-Content-list"
+              "title": "CS50-Content-list"
             }
           }
         ]
@@ -165,16 +165,18 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "d0890856a4ba7a7f",
+  "active": "cc0486de04985eef",
   "lastOpenFiles": [
-    "Tools/Database/Course/CS50/Lecture-01/Lecture-1.canvas",
-    "Tools/Database/Course/CS50/Lecture-01",
-    "Tools/Database/Course/CS50/Lecture-00/Query Cheat Sheet.md",
-    "Tools/Database/Course/CS50/Lecture-00/Lecture-0.canvas",
-    "Tools/Database/Course/CS50/Lecture-00",
-    "Tools/Database/Course/CS50/Lecture-01",
+    "Tools/Database/Course/CS50/Lecture-0/Query Cheat Sheet.md",
+    "Tools/Database/Course/CS50/Lecture-1/Lecture-1.canvas",
+    "Tools/Database/Course/CS50/Lecture-2/Lecture-2.canvas",
     "Tools/Database/Course/CS50/CS50-Content-list.md",
+    "Tools/Database/Course/CS50/Lecture-0/Lecture-0.canvas",
+    "Tools/Database/Course/CS50/Lecture-2",
     "Tools/Database/Database-Content-list.md",
+    "Tools/Database/Course/CS50/Lecture-1",
+    "Tools/Database/Course/CS50/Lecture-0",
+    "Tools/Database/Course/CS50/Lecture-1",
     "Tools/Programming Language/Python/Course/MIT 2022/MIT-Python-Lecture-List.md",
     "Tools/Database/Concept/General-Components-of-Database.md",
     "Tools/Database/Concept",
@@ -185,19 +187,16 @@
     "Tools/Programming Language/Python/Course/MIT 2022/Lecture-19/Lecture-19.canvas",
     "Tools/Programming Language/Python/Course/MIT 2022/Lecture-19",
     "Tools/Programming Language/Python/Course/MIT 2022/Lecture-13/Lecture-13.canvas",
-    "Tools/Programming Language/Python/Course/MIT 2022/Lecture-18/lecture-18.ipynb",
     "Tools/Programming Language/Python/Course/MIT 2022/Lecture-18/Lecture-18.canvas",
     "Tools/Programming Language/Python/Course/MIT 2022/Lecture-17/Lecture-17.canvas",
     "Tools/Programming Language/Python/Course/MIT 2022/Lecture-16/Lecture-16 1.canvas",
     "Tools/Programming Language/Python/Course/MIT 2022/Lecture-16/Lecture-16.canvas",
     "Tools/Programming Language/Python/Course/MIT 2022/Lecture-15/Lecture-15.canvas",
     "Tools/Programming Language/Python/Course/MIT 2022/Lecture-15/Recursion.md",
-    "Tools/Programming Language/Python/Course/MIT 2022/Lecture-14/Lecture-14.canvas",
     "Tools/Editor/VIM.md",
     "Tools/Editor/NeoVim-TJ.md",
     "Tools/Editor/NeoVim-Primeagen.md",
     "Tools/Editor/NeoVim.md",
-    "Tools/Programming Language/Python/Course/MIT 2022/Lecture-12/Lecture-12.canvas",
     "Tools/Programming Language/Python/Python Content List.md",
     "Tools/Programming Language/Python/Course/MIT 2022/Lecture-04/Guess-and-Check-Implementation-Comparison.md",
     "Tools/Programming Language/Python/Course/MIT 2022/Lecture-03/While Loop.md",

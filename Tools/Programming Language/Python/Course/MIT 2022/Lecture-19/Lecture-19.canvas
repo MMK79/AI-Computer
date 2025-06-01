@@ -1,0 +1,27 @@
+{
+	"nodes":[
+		{"id":"eb2f46dcc422e2bf","x":-194,"y":-211,"width":250,"height":60,"type":"text","text":"Lecture-19"},
+		{"id":"ab3cad0e00c55cb1","x":1120,"y":-237,"width":446,"height":113,"type":"text","text":"Getter & Setter:\n* Getter: returns values of data attribute\n* Setters: enable you to set values of data attributes"},
+		{"id":"b2a0266179d895d5","x":1820,"y":-306,"width":620,"height":265,"type":"text","text":"(Accessing through method) Better than dot notation: in style, robustness, good coding practice, code easy to read, easy to modify\n* When you want to use a data you should not need to read the initialize method to know what to use to access the specific thing in data\n* If you accessing data attributes outside the class and the definition of change you might get error if you are using dot notation\n\t* Outside of class use setter and getter, don't use data attributes outside of class"},
+		{"id":"68ed1e441fe6da52","x":2640,"y":-294,"width":597,"height":241,"type":"text","text":"Python not great at Hiding information:\n* allow access data from outside class definition\n* write to data\n* create data attribute for one instance\n> [!warning] Not good style to do any of these"},
+		{"id":"6203feb2975b556a","x":2717,"y":60,"width":444,"height":79,"type":"text","text":"Python run print method top level, not recursively:\n* You need a way to use print directly on that object"},
+		{"id":"83be58401a419f08","x":1120,"y":240,"width":473,"height":244,"type":"text","text":"Hierarchies:\n* Parent Class (Super Class)\n\t* Child Class (Sub Class)\n\t\t* Inherits all data and behavior of parent class\n\t\t* add more info/data\n\t\t* add more behavior/procedure\n\t\t\t* Override behavior"},
+		{"id":"082fea2b5d07f5c1","x":1760,"y":208,"width":633,"height":309,"type":"text","text":"When you put something else inside class type (instead of object) $\\rightarrow$ Inheritance\n```\nclass type_name/class_name(parent)\n```\n* Python will copy every$thing inside this to your subclass $\\rightarrow$ You can override their method $\\xrightarrow{so}$ Subclass can have methods with same name as super class with different functionality\n* How this override work? For an instance of a class, look for a method name in current class definition $\\xrightarrow{if}$ not found! $\\rightarrow$ go up the hierarchy until you find it (stop at the first one)"},
+		{"id":"005761212b947a76","x":1760,"y":600,"width":497,"height":109,"type":"text","text":"A subclass can use parent's attribute, override a parent's attribute, or even define new attributes.\n* These attributes are either Data or Methods\n"},
+		{"id":"f413bf6f9b8fe553","x":2360,"y":582,"width":250,"height":145,"type":"text","text":"Variables:\n* Classic/Ordinary\n* Data attribute (self.)\n* Class variable"},
+		{"id":"70d40f21c2e71986","x":2733,"y":431,"width":504,"height":448,"type":"text","text":"Class Variable:\nLike a share resource\n* any instance of that particular type can access and modify it, if it gets modify it will change across all instances\nHow to create it? variable outside of any class method (variable inside class scope itself)\n```\nclass class_name(parent):\n\tclass_variable_name = value\n```\nyou can access it through\n```\nClass_name.class_varaible_name\n```\n* Could be useful to implement unique id"},
+		{"id":"5fd4396ddfc8657c","x":120,"y":-319,"width":820,"height":277,"type":"text","text":"Why use OOP and Class of Objects?\n* Mimic real life\n\t* group different objects that are part of the same group\n* Class Contain:\n\t* Data: What variables makeup our object (what it is)\n\t* Procedural: What it does, how to manipulate object\n\t\t* Every method need object to work on, but we don't have an object $\\xrightarrow{so}$ use `self` instead\n* Like Function, Classes are a mechanism/tool for Decomposition & Abstraction"}
+	],
+	"edges":[
+		{"id":"014846a026b61336","fromNode":"eb2f46dcc422e2bf","fromSide":"right","toNode":"5fd4396ddfc8657c","toSide":"left"},
+		{"id":"966ebfdaa73dde54","fromNode":"5fd4396ddfc8657c","fromSide":"right","toNode":"ab3cad0e00c55cb1","toSide":"left"},
+		{"id":"dc152c2b0ca6c918","fromNode":"ab3cad0e00c55cb1","fromSide":"right","toNode":"b2a0266179d895d5","toSide":"left","label":"Why?"},
+		{"id":"2143dd7049e67aea","fromNode":"b2a0266179d895d5","fromSide":"right","toNode":"68ed1e441fe6da52","toSide":"left"},
+		{"id":"4e53d1c50fe513a3","fromNode":"b2a0266179d895d5","fromSide":"right","toNode":"6203feb2975b556a","toSide":"left"},
+		{"id":"4b2ab98cdb6a7f06","fromNode":"5fd4396ddfc8657c","fromSide":"right","toNode":"83be58401a419f08","toSide":"left"},
+		{"id":"f69e17375fbd7ecd","fromNode":"83be58401a419f08","fromSide":"right","toNode":"082fea2b5d07f5c1","toSide":"left"},
+		{"id":"5923db999de05391","fromNode":"83be58401a419f08","fromSide":"right","toNode":"005761212b947a76","toSide":"left"},
+		{"id":"97dc3af517543b6f","fromNode":"005761212b947a76","fromSide":"right","toNode":"f413bf6f9b8fe553","toSide":"left"},
+		{"id":"bee39efc7e494526","fromNode":"f413bf6f9b8fe553","fromSide":"right","toNode":"70d40f21c2e71986","toSide":"left"}
+	]
+}

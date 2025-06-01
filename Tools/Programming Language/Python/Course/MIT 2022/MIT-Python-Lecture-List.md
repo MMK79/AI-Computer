@@ -15,3 +15,5 @@
 * [[Lecture-15.canvas|Lecture-15]]
 * [[Lecture-16.canvas|Lecture-16]]
 * [[Lecture-17.canvas|Lecture-17]]
+* [[Lecture-18.canvas|Lecture-18]]
+* [[Lecture-19.canvas|Lecture-19]]

@@ -1,0 +1,23 @@
+{
+	"nodes":[
+		{"id":"1c70e41840c26dc4","x":20,"y":-260,"width":341,"height":113,"type":"text","text":"Break Design:\n* Data Attributes: What it is?\n* Functional Attributes: What it does?"},
+		{"id":"6e01f30e3377ef18","x":460,"y":-344,"width":405,"height":282,"type":"text","text":"Class Definition:\nObject like store in python memory\n* Class State Dictionary\n\t* Dictionary that hold state of your object\n```\nclass_name.__dict__.keys()\nclass_name.__dict__.values()\nclass_name.__dict__.doc\n```"},
+		{"id":"0dd9089fb82c2ed5","x":960,"y":-261,"width":409,"height":116,"type":"text","text":"Create instance $\\rightarrow$ Create new object in memory $\\rightarrow$ What type? $\\rightarrow$ run init $\\rightarrow$ object will have it's own instance state dictionary $\\rightarrow$ Store data attribute values $\\rightarrow$ we can access them via `self`"},
+		{"id":"d39cf07a9015c2a6","x":1500,"y":-350,"width":447,"height":295,"type":"text","text":"Why hiding information:\n* Interface of your class as simple as possible\n* Use setter/getter not data attributes\n\t* Prevent bug due to change in implementation\n* many seem inconsequential in small program but for large scale program, complex interface increase potential of bug happening\n* If you are writing class for others to use, you are committing to maintain its interface"},
+		{"id":"44c9fe6bf9f7d0bb","x":1538,"y":20,"width":371,"height":144,"type":"text","text":"`parser.parser(str)`  $\\rightarrow$ returning/parsing str as new data type (date-time object)\nLibrary: Collection of object, functions that deal with certain type of problem"},
+		{"id":"af220b3a552026d9","x":2100,"y":-270,"width":522,"height":136,"type":"text","text":"You can access variable out of class:\n```\nclass_name.class_varaiable_name\ninstance_name(class_object_name).class_variable_name\n```"},
+		{"id":"12c0206154601696","x":2100,"y":-55,"width":527,"height":369,"type":"text","text":"Why Inheritance? \n* Improve clarity\n\t* Commonalities are in parent class\n\t* Differences are in subclass\n* Reuse code\n* Enhance modularity\n\t* Can pass subclass to any method that use parents\n\t\t* Where can I use instance of a class?\n\t\t\t* Run a subclass anywhere that superclass used\n\t\t\t\t* Not the Opposite\n\n`super()` $\\rightarrow$ access your parent\n"},
+		{"id":"a62ff2544bc75224","x":2740,"y":24,"width":580,"height":211,"type":"text","text":"OOP $\\rightarrow$ Modularize\n* It is very good but it opens a window of possibility of overdoing it\n\t* New OOP programmers often create elaborate class hierarchies\n\t* Not necessarily a good idea\n\t* Think about the use of your object/class\n\t* Some times hard to think through workflow"},
+		{"id":"77ed85f6f00dba84","x":-320,"y":-232,"width":250,"height":60,"type":"text","text":"Lecture-20"}
+	],
+	"edges":[
+		{"id":"28cf7873e68efa68","fromNode":"77ed85f6f00dba84","fromSide":"right","toNode":"1c70e41840c26dc4","toSide":"left"},
+		{"id":"ac3e8338207a5746","fromNode":"1c70e41840c26dc4","fromSide":"right","toNode":"6e01f30e3377ef18","toSide":"left"},
+		{"id":"4b84de95f6eee1c9","fromNode":"6e01f30e3377ef18","fromSide":"right","toNode":"0dd9089fb82c2ed5","toSide":"left"},
+		{"id":"e7c9c28058871141","fromNode":"0dd9089fb82c2ed5","fromSide":"right","toNode":"d39cf07a9015c2a6","toSide":"left"},
+		{"id":"4bf3fb3102c3dcb4","fromNode":"d39cf07a9015c2a6","fromSide":"bottom","toNode":"44c9fe6bf9f7d0bb","toSide":"top"},
+		{"id":"2141c143d2dc9664","fromNode":"d39cf07a9015c2a6","fromSide":"right","toNode":"af220b3a552026d9","toSide":"left"},
+		{"id":"6afe98d762f9f1aa","fromNode":"d39cf07a9015c2a6","fromSide":"right","toNode":"12c0206154601696","toSide":"left"},
+		{"id":"ad1b9e0c23651d95","fromNode":"12c0206154601696","fromSide":"right","toNode":"a62ff2544bc75224","toSide":"left"}
+	]
+}

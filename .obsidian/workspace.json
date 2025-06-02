@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tools/Database/Course/CS50/CS50-Content-list.md",
+                "file": "Tools/Programming Language/Python/Course/MIT 2022/MIT-Python-Lecture-List.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "CS50-Content-list"
+              "title": "MIT-Python-Lecture-List"
             }
           }
         ]
@@ -167,10 +167,13 @@
   },
   "active": "cc0486de04985eef",
   "lastOpenFiles": [
+    "Tools/Database/Course/CS50/CS50-Content-list.md",
+    "Tools/Programming Language/Python/Course/MIT 2022/Lecture-20/lecture-20.ipynb",
+    "Tools/Programming Language/Python/Course/MIT 2022/Lecture-20/Lecture-20.canvas",
+    "Tools/Programming Language/Python/Course/MIT 2022/Lecture-20",
     "Tools/Database/Course/CS50/Lecture-0/Query Cheat Sheet.md",
     "Tools/Database/Course/CS50/Lecture-1/Lecture-1.canvas",
     "Tools/Database/Course/CS50/Lecture-2/Lecture-2.canvas",
-    "Tools/Database/Course/CS50/CS50-Content-list.md",
     "Tools/Database/Course/CS50/Lecture-0/Lecture-0.canvas",
     "Tools/Database/Course/CS50/Lecture-2",
     "Tools/Database/Database-Content-list.md",
@@ -183,15 +186,12 @@
     "Tools/Database/Course/CS50",
     "Tools/Database/Course",
     "Tools/Database",
-    "Tools/Programming Language/Python/Course/MIT 2022/Lecture-19/lecture-19.ipynb",
     "Tools/Programming Language/Python/Course/MIT 2022/Lecture-19/Lecture-19.canvas",
-    "Tools/Programming Language/Python/Course/MIT 2022/Lecture-19",
     "Tools/Programming Language/Python/Course/MIT 2022/Lecture-13/Lecture-13.canvas",
     "Tools/Programming Language/Python/Course/MIT 2022/Lecture-18/Lecture-18.canvas",
     "Tools/Programming Language/Python/Course/MIT 2022/Lecture-17/Lecture-17.canvas",
     "Tools/Programming Language/Python/Course/MIT 2022/Lecture-16/Lecture-16 1.canvas",
     "Tools/Programming Language/Python/Course/MIT 2022/Lecture-16/Lecture-16.canvas",
-    "Tools/Programming Language/Python/Course/MIT 2022/Lecture-15/Lecture-15.canvas",
     "Tools/Programming Language/Python/Course/MIT 2022/Lecture-15/Recursion.md",
     "Tools/Editor/VIM.md",
     "Tools/Editor/NeoVim-TJ.md",

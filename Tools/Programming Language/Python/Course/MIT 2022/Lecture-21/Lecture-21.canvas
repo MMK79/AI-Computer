@@ -1,0 +1,22 @@
+{
+	"nodes":[
+		{"id":"5a6994fc16f533b5","x":1480,"y":-260,"width":1187,"height":402,"type":"group","label":"Timing/Runtime"},
+		{"id":"4689cd39e5ef2fbd","x":-438,"y":-94,"width":178,"height":60,"type":"text","text":"Lecture-21"},
+		{"id":"6d6707acedbbd742","x":-180,"y":-151,"width":406,"height":175,"type":"text","text":"How to figure out that the program that we wrote are efficient, and how much efficient they are?\n* Timing Programs\n* Counting Operations\n* Asymptotic Complexity"},
+		{"id":"10eb16fc8f875edb","x":320,"y":-120,"width":264,"height":113,"type":"text","text":"Efficiency:\n* Time Efficiency\n* Space (Storage/Memory)"},
+		{"id":"823d499f26423aa5","x":660,"y":-185,"width":593,"height":244,"type":"text","text":"Efficiency Challenges:\n* A program can be implemented in different ways\n* You can solve problem using only handful of algorithms\n* Separate choice of implementation from choice of abstract algorithms:\n\t* Measure with Timer\n\t* Count the Operations\n\t* Abstract Notion, Order of Growth"},
+		{"id":"11d417d7f28737c0","x":1520,"y":-145,"width":285,"height":172,"type":"text","text":"Modules:\nSet of python definition in a file\n* import modules to use them\n* `parser.parse()`,  from `parser` module"},
+		{"id":"dd396a321ce7e33f","x":1900,"y":-137,"width":320,"height":155,"type":"text","text":"Time module:\n* Start time: `time.time()`\n* Call function\n* Stop timer"},
+		{"id":"b3a38bec55acafd0","x":2320,"y":-240,"width":327,"height":362,"type":"text","text":"Timer, Running time vary between:\n* Algorithms\n* Implementation\n* Computers/Devices\n* Programming Languages\n* But don't vary in Small Input\n> [!important] Time vary for different inputs, but can't express relationship between input and time needed"},
+		{"id":"9a5933893d7ce2e8","x":1520,"y":260,"width":660,"height":273,"type":"text","text":"Counting:\n* Idea: Assume each operation take a constant time (unit of time)\n\t* Mathematical Operations, Comparisons, Assignments, Access Object in Memory (Pretty Fast Operations)\n* Better than Timing:\n\t* Not dependent on system\n\t* Can Give a formula base on input in the End\n* Challenge: Hard to define which operation to count"}
+	],
+	"edges":[
+		{"id":"4fc6c2737d77c4ae","fromNode":"4689cd39e5ef2fbd","fromSide":"right","toNode":"6d6707acedbbd742","toSide":"left"},
+		{"id":"72adaeda3e57f4d3","fromNode":"6d6707acedbbd742","fromSide":"right","toNode":"10eb16fc8f875edb","toSide":"left"},
+		{"id":"c84dba8ba9418a58","fromNode":"10eb16fc8f875edb","fromSide":"right","toNode":"823d499f26423aa5","toSide":"left"},
+		{"id":"474e8fa983924594","fromNode":"823d499f26423aa5","fromSide":"right","toNode":"11d417d7f28737c0","toSide":"left"},
+		{"id":"e8dd0244d896bab0","fromNode":"11d417d7f28737c0","fromSide":"right","toNode":"dd396a321ce7e33f","toSide":"left"},
+		{"id":"f6df154b1b094ac0","fromNode":"dd396a321ce7e33f","fromSide":"right","toNode":"b3a38bec55acafd0","toSide":"left"},
+		{"id":"52c0fb4cd1f78d9c","fromNode":"823d499f26423aa5","fromSide":"right","toNode":"9a5933893d7ce2e8","toSide":"left"}
+	]
+}

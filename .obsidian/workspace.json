@@ -11,14 +11,17 @@
             "id": "cc0486de04985eef",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "Tools/Programming Language/Python/Course/MIT 2022/MIT-Python-Lecture-List.md",
-                "mode": "source",
-                "source": false
+                "file": "Tools/Programming Language/Python/Course/MIT 2022/Lecture-22/Lecture-22.canvas",
+                "viewState": {
+                  "x": 6408.702269527395,
+                  "y": -169.55171509867947,
+                  "zoom": -1.0829356838300905
+                }
               },
-              "icon": "lucide-file",
-              "title": "MIT-Python-Lecture-List"
+              "icon": "lucide-layout-dashboard",
+              "title": "Lecture-22"
             }
           }
         ]
@@ -165,8 +168,13 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "d0890856a4ba7a7f",
+  "active": "cc0486de04985eef",
   "lastOpenFiles": [
+    "Tools/Programming Language/Python/Course/MIT 2022/Lecture-22/Class_of_Algorithms.md",
+    "Tools/Programming Language/Python/Course/MIT 2022/MIT-Python-Lecture-List.md",
+    "Tools/Programming Language/Python/Course/MIT 2022/Lecture-22/lecture-22.ipynb",
+    "Tools/Programming Language/Python/Course/MIT 2022/Lecture-22/Lecture-22.canvas",
+    "Tools/Programming Language/Python/Course/MIT 2022/Lecture-22",
     "Tools/Programming Language/Python/Course/MIT 2022/Lecture-21/lecture-21.ipynb",
     "Tools/Programming Language/Python/Course/MIT 2022/Lecture-21/Lecture-21.canvas",
     "Tools/Programming Language/Python/Course/MIT 2022/Lecture-21",
@@ -183,16 +191,11 @@
     "Tools/Database/Course/CS50/Lecture-1",
     "Tools/Database/Course/CS50/Lecture-0",
     "Tools/Database/Course/CS50/Lecture-1",
-    "Tools/Programming Language/Python/Course/MIT 2022/MIT-Python-Lecture-List.md",
     "Tools/Database/Concept/General-Components-of-Database.md",
-    "Tools/Database/Concept",
-    "Tools/Database/Course/CS50",
-    "Tools/Database/Course",
     "Tools/Programming Language/Python/Course/MIT 2022/Lecture-19/Lecture-19.canvas",
     "Tools/Programming Language/Python/Course/MIT 2022/Lecture-13/Lecture-13.canvas",
     "Tools/Programming Language/Python/Course/MIT 2022/Lecture-18/Lecture-18.canvas",
     "Tools/Programming Language/Python/Course/MIT 2022/Lecture-17/Lecture-17.canvas",
-    "Tools/Programming Language/Python/Course/MIT 2022/Lecture-16/Lecture-16 1.canvas",
     "Tools/Programming Language/Python/Course/MIT 2022/Lecture-15/Recursion.md",
     "Tools/Editor/VIM.md",
     "Tools/Editor/NeoVim-TJ.md",
@@ -212,7 +215,6 @@
     "Artificial Intelligence/Machine Learning/Course/Machine Learning Courses Content List.md",
     "Artificial Intelligence/Machine Learning/Machine Learning Content List.md",
     "Artificial Intelligence/Machine Learning/Course/Yaser Abu-Mostafa - Caltech/Lecture-01/Lecture-01.md",
-    "Artificial Intelligence/Machine Learning/Course/Yaser Abu-Mostafa - Caltech/Lecture-00/Lecture-00.md",
     "Artificial Intelligence/Machine Learning/Course/Yaser Abu-Mostafa - Caltech/Lecture-01/Attachments/Components-of-learning.png",
     "Artificial Intelligence/Machine Learning/Course/Yaser Abu-Mostafa - Caltech/Lecture-01/Attachments/Learning-Diagram.png",
     "Artificial Intelligence/Machine Learning/Course/Yaser Abu-Mostafa - Caltech/Lecture-01/Attachments/Inner-Product.png",

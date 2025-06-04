@@ -1,0 +1,27 @@
+{
+	"nodes":[
+		{"id":"7c089be382d8dfb1","type":"text","text":"Lecture-23","x":-519,"y":-214,"width":250,"height":60},
+		{"id":"037cb3f94ecabcf8","type":"text","text":"Algorithm Complexity Classes","x":-208,"y":-216,"width":268,"height":64},
+		{"id":"a421ddb8a3e82a3e","type":"text","text":"$Big\\ \\Theta$: Is a way that we denote asymptotic Complexity\n* Look at the input that dominate all\n\t* Drop additive, multiplicative, other pieces that don't have fastest growth away\n* End of with few Class of Algorithms:\n![](https://i.imgur.com/yroHr3x.png)\n","x":143,"y":-481,"width":697,"height":595},
+		{"id":"9a2c000faf1aa360","x":215,"y":200,"width":554,"height":444,"type":"text","text":"> [!important] Be careful what the inputs are\n> Complexity $\\rightarrow$ report with respect to inputs of function (feels like derivate) $\\xrightarrow{so}$ if you have multiple input (something like gradiant)\n\n> [!warning] Theory vs. Real World\n>  For some algorithms Asymptotic Complexity calculation will be differ than real machine runtime\n>> [!important] Hardware and Programming Language\n\n> [!important] we don't care about log base in asymptotic complexity"},
+		{"id":"e9bb7a6872ce82b9","type":"text","text":"Constant Complexity Class:\n* Complexity is independent of inputs\n* Can have loops or recursive calls but number of iteration/calls must be independent from input\n* Very few algorithms categorize in this class\n\t* Mostly small pieces fit in this class\n\t* Some built-in operations\n\t\t* list index, list append, dict lookup","x":1040,"y":-765,"width":780,"height":244},
+		{"id":"a0adf019bcf8ae9d","x":1040,"y":-425,"width":647,"height":211,"type":"text","text":"Linear Complexity Class:\n* Simple iterative loop algorithms\n\t* loops must be a function of input\n* Recursive functions with only one recursive call and constant overhead for call\n* Some built-in functions;\n\t* e in L, subset of list, del, linear search in list"},
+		{"id":"e2bb598b4a5aa4e6","x":1040,"y":-97,"width":607,"height":113,"type":"text","text":"Polynomial Complexity (Often Quadratic)\n* Common polynomial algorithms are quadratic\n* Commonly occurs when we have nested loops or recursive function calls"},
+		{"id":"6a0974c76a117ea7","x":1040,"y":97,"width":458,"height":145,"type":"text","text":"Exponential Complexity:\n* Many important problems are inherently exponential\n\t* high cost\n\t* Need to consider approximation solution"},
+		{"id":"6eb990b5068ec6b5","x":1740,"y":-22,"width":513,"height":383,"type":"text","text":"Magnitude:\n* How far away from zero\n* Distance from zero\n* Size of vector / How big is a vector\nOrder of Magnitude: how big is a number to the power of 10\n* Guess the calculation answer pretty roughly\n\t* Help to check the final answer\n> [!important] Round things for order of magnitude\n$$2 \\times 10^{-2} = -3\\ order\\ of\\ magnitude$$"},
+		{"id":"ef2d47f0949f0090","x":2280,"y":361,"width":471,"height":333,"type":"text","text":"When we use binary search?\nWhen this condition be true:\n$$sort + \\Theta(log\\ n) < \\Theta(n)$$\n$$sort < \\Theta(n) - \\Theta(log\\ n) $$\nThis is never gonna be true\nBut, if you want to do so many searches:\n* Amortize cost of the sort over many search\n\n$$sort + k\\times \\Theta(log\\ n) < k \\times \\Theta(n)$$\n$$sort < k \\times \\Theta(n) - k\\times \\Theta(log\\ n)$$"},
+		{"id":"d66c158687bc3062","x":1740,"y":422,"width":290,"height":211,"type":"text","text":"Searching Algorithms:\n* Linear Search:\n\t* Brute Force\n\t* Don't need to be sorted\n* Binary Search\n\t* Must be sorted"}
+	],
+	"edges":[
+		{"id":"bde9c7348606142e","fromNode":"7c089be382d8dfb1","fromSide":"right","toNode":"037cb3f94ecabcf8","toSide":"left"},
+		{"id":"0a4738caa1e793f2","fromNode":"037cb3f94ecabcf8","fromSide":"right","toNode":"a421ddb8a3e82a3e","toSide":"left"},
+		{"id":"e8effe865a03311d","fromNode":"a421ddb8a3e82a3e","fromSide":"right","toNode":"e9bb7a6872ce82b9","toSide":"left"},
+		{"id":"373ed0a88d1c5605","fromNode":"a421ddb8a3e82a3e","fromSide":"right","toNode":"a0adf019bcf8ae9d","toSide":"left"},
+		{"id":"ce9590aa052cdbf0","fromNode":"a421ddb8a3e82a3e","fromSide":"right","toNode":"e2bb598b4a5aa4e6","toSide":"left"},
+		{"id":"46e12719da33e649","fromNode":"a421ddb8a3e82a3e","fromSide":"right","toNode":"6a0974c76a117ea7","toSide":"left"},
+		{"id":"aedfcba014e6267c","fromNode":"a421ddb8a3e82a3e","fromSide":"bottom","toNode":"9a2c000faf1aa360","toSide":"top"},
+		{"id":"95ee7eca40f97132","fromNode":"6a0974c76a117ea7","fromSide":"right","toNode":"6eb990b5068ec6b5","toSide":"left","label":"Approximation"},
+		{"id":"2b76206fabbd7108","fromNode":"6a0974c76a117ea7","fromSide":"right","toNode":"d66c158687bc3062","toSide":"left"},
+		{"id":"c9697fa897bbe9ae","fromNode":"d66c158687bc3062","fromSide":"right","toNode":"ef2d47f0949f0090","toSide":"left"}
+	]
+}

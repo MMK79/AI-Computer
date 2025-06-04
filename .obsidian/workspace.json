@@ -11,17 +11,14 @@
             "id": "cc0486de04985eef",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "Tools/Programming Language/Python/Course/MIT 2022/Lecture-22/Lecture-22.canvas",
-                "viewState": {
-                  "x": 6408.702269527395,
-                  "y": -169.55171509867947,
-                  "zoom": -1.0829356838300905
-                }
+                "file": "Tools/Programming Language/Python/Course/MIT 2022/MIT-Python-Lecture-List.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "Lecture-22"
+              "icon": "lucide-file",
+              "title": "MIT-Python-Lecture-List"
             }
           }
         ]
@@ -170,10 +167,13 @@
   },
   "active": "cc0486de04985eef",
   "lastOpenFiles": [
+    "Tools/Programming Language/Python/Course/MIT 2022/Lecture-22/Lecture-22.canvas",
+    "Tools/Programming Language/Python/Course/MIT 2022/Lecture-23/lecture-23.ipynb",
+    "Tools/Programming Language/Python/Course/MIT 2022/Lecture-23/Lecture-23.canvas",
+    "Tools/Programming Language/Python/Course/MIT 2022/Lecture-23",
     "Tools/Programming Language/Python/Course/MIT 2022/Lecture-22/Class_of_Algorithms.md",
     "Tools/Programming Language/Python/Course/MIT 2022/MIT-Python-Lecture-List.md",
     "Tools/Programming Language/Python/Course/MIT 2022/Lecture-22/lecture-22.ipynb",
-    "Tools/Programming Language/Python/Course/MIT 2022/Lecture-22/Lecture-22.canvas",
     "Tools/Programming Language/Python/Course/MIT 2022/Lecture-22",
     "Tools/Programming Language/Python/Course/MIT 2022/Lecture-21/lecture-21.ipynb",
     "Tools/Programming Language/Python/Course/MIT 2022/Lecture-21/Lecture-21.canvas",
@@ -189,13 +189,10 @@
     "Tools/Database/Course/CS50/Lecture-2",
     "Tools/Database/Database-Content-list.md",
     "Tools/Database/Course/CS50/Lecture-1",
-    "Tools/Database/Course/CS50/Lecture-0",
-    "Tools/Database/Course/CS50/Lecture-1",
     "Tools/Database/Concept/General-Components-of-Database.md",
     "Tools/Programming Language/Python/Course/MIT 2022/Lecture-19/Lecture-19.canvas",
     "Tools/Programming Language/Python/Course/MIT 2022/Lecture-13/Lecture-13.canvas",
     "Tools/Programming Language/Python/Course/MIT 2022/Lecture-18/Lecture-18.canvas",
-    "Tools/Programming Language/Python/Course/MIT 2022/Lecture-17/Lecture-17.canvas",
     "Tools/Programming Language/Python/Course/MIT 2022/Lecture-15/Recursion.md",
     "Tools/Editor/VIM.md",
     "Tools/Editor/NeoVim-TJ.md",

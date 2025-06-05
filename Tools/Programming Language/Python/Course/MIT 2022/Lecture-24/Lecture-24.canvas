@@ -1,0 +1,17 @@
+{
+	"nodes":[
+		{"id":"75c1fe9be8b334ec","x":-180,"y":-215,"width":250,"height":60,"type":"text","text":"Sorting Algorithms"},
+		{"id":"77c01af2a55d5ef9","x":-580,"y":-215,"width":250,"height":60,"type":"text","text":"Lecture -24"},
+		{"id":"a020c9a1d5b1f378","x":240,"y":-665,"width":467,"height":143,"type":"text","text":"Bogo Sort:\nrandom, monkey sort, stupid sort, slow sort, shotgun sort\n* shuffle it until it works by itself\n* Complexity is unbound, infinity"},
+		{"id":"bdd262135613703d","x":240,"y":-424,"width":448,"height":209,"type":"text","text":"Bubble sort:\nbubble up the largest at the end\n1. Compare consecutive pairs of element\n2. Swap elements in pair such that smaller one is first\n3. When reach the end of list go to step 1\n4. Stop where no more swap has been done"},
+		{"id":"49b5f69ba80f52b3","x":240,"y":-145,"width":460,"height":314,"type":"text","text":"Selection Sort:\n1. Extract minimum element\n2. Swap it with index 0\n3. In remaining sublist find the minimum\n4. Swap it with index 0\n* At the i time first i elements of the list are sorted and other elements are bigger than the first i elements\n* Variation of Select sort: don't swap every time, keep track of smallest value"},
+		{"id":"eabbfad2b3a010d3","x":240,"y":215,"width":598,"height":244,"type":"text","text":"Merge-Sort: Fasters sorting algorithm\n* Divide-and-Conquer approach:\n\t* If `len(L) == 0 or 1`  already sorted\n\t* If list has more than one element, split and sort each\n* Merge sorted sublist\n\t* Look at the first element of each, move smaller to the end of result\n\t* When one list empty, just copy rest of other list"}
+	],
+	"edges":[
+		{"id":"a338ae02b0beeee5","fromNode":"77c01af2a55d5ef9","fromSide":"right","toNode":"75c1fe9be8b334ec","toSide":"left"},
+		{"id":"020db4718eac117a","fromNode":"75c1fe9be8b334ec","fromSide":"right","toNode":"a020c9a1d5b1f378","toSide":"left"},
+		{"id":"b8694ff6290bc2a0","fromNode":"75c1fe9be8b334ec","fromSide":"right","toNode":"bdd262135613703d","toSide":"left"},
+		{"id":"02771a256770efb7","fromNode":"75c1fe9be8b334ec","fromSide":"right","toNode":"49b5f69ba80f52b3","toSide":"left"},
+		{"id":"4f0a701c41f6087d","fromNode":"75c1fe9be8b334ec","fromSide":"right","toNode":"eabbfad2b3a010d3","toSide":"left"}
+	]
+}

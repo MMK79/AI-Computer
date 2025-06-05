@@ -21,3 +21,4 @@
 * [[Lecture-21.canvas|Lecture-21]]
 * [[Lecture-22.canvas|Lecture-22]]
 * [[Lecture-23.canvas|Lecture-23]]
+* [[Lecture-24.canvas|Lecture-24]]

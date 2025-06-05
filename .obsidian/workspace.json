@@ -165,8 +165,11 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "cc0486de04985eef",
+  "active": "d0890856a4ba7a7f",
   "lastOpenFiles": [
+    "Tools/Programming Language/Python/Course/MIT 2022/Lecture-24/lecture-24.ipynb",
+    "Tools/Programming Language/Python/Course/MIT 2022/Lecture-24/Lecture-24.canvas",
+    "Tools/Programming Language/Python/Course/MIT 2022/Lecture-24",
     "Tools/Programming Language/Python/Course/MIT 2022/Lecture-22/Lecture-22.canvas",
     "Tools/Programming Language/Python/Course/MIT 2022/Lecture-23/lecture-23.ipynb",
     "Tools/Programming Language/Python/Course/MIT 2022/Lecture-23/Lecture-23.canvas",
@@ -188,11 +191,9 @@
     "Tools/Database/Course/CS50/Lecture-0/Lecture-0.canvas",
     "Tools/Database/Course/CS50/Lecture-2",
     "Tools/Database/Database-Content-list.md",
-    "Tools/Database/Course/CS50/Lecture-1",
     "Tools/Database/Concept/General-Components-of-Database.md",
     "Tools/Programming Language/Python/Course/MIT 2022/Lecture-19/Lecture-19.canvas",
     "Tools/Programming Language/Python/Course/MIT 2022/Lecture-13/Lecture-13.canvas",
-    "Tools/Programming Language/Python/Course/MIT 2022/Lecture-18/Lecture-18.canvas",
     "Tools/Programming Language/Python/Course/MIT 2022/Lecture-15/Recursion.md",
     "Tools/Editor/VIM.md",
     "Tools/Editor/NeoVim-TJ.md",

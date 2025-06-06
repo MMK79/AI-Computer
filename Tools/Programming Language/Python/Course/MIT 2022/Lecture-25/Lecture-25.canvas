@@ -1,0 +1,19 @@
+{
+	"nodes":[
+		{"id":"199811474a59b82d","type":"text","text":"Lecture-25","x":-519,"y":-105,"width":250,"height":60},
+		{"id":"ba191b72d7395c95","type":"text","text":"Plotting","x":-140,"y":-105,"width":250,"height":60},
+		{"id":"b9e7e7aee7c7277f","type":"text","text":"Using `matplotlib` library\n* To use a library you need to install it `pip` or `conda` or etc. then you need to import it\n```\nimport matplotlib.pyplot as plt\n```\n* as `plt` will help you to write code easier","x":200,"y":-196,"width":393,"height":242},
+		{"id":"0d68947964163a6a","x":720,"y":-258,"width":569,"height":366,"type":"text","text":"Generate Plot:\n```\nplt.plot(<x-axis-values>, <y-axis-values)\n```\n* Argument is a list/sequence of numbers\n\t* Lists must have a same length\n\t\t* If not, you get an error\n\t* Generate a sequence of `<x, y>` values on a Cartesian grid\n\t* Plotted in order, then connect the points\n\t\t* Order of points matter\n\t\t\t* `plt.scatter` to plot a unordered points\n* Use `Ipython` library to make your life easy"},
+		{"id":"4c8cfe9b27321453","x":1380,"y":-206,"width":483,"height":262,"type":"text","text":"Multiple Plots:\n* Until you don't make a new figure all the `plt.plot`s will get add/show in your current figure\nFigure:\nCreate separate frame/window\n`plt.figure(\"name_of_the_figure\")`\n* If a figure with that name exist it will reopen it for additional processing."},
+		{"id":"207f4493147451ee","x":1980,"y":-259,"width":540,"height":369,"type":"text","text":"Plot information:\n* `plt.title()`, `plt.xlabel()`, `plt.ylabel()` to add information to our plot, so the user don't need to read the code to understand what this plot is for\n* `plt.xlim()` limiting x-axis so it is more appropriate\n* instead of letting python decide how to handle ticks you can handle them yourself with `plt.xticks(<tuple>)`\n\t* You can add label for your each ticks by `plt.xticks(<array>, <array_of_name>`\n* You can toggle gridline by `plt.grid()`\n* `plt.legend(loc = 'best')` to show the label for each line that you have in your plot"},
+		{"id":"b522b409c187953a","x":2600,"y":-288,"width":500,"height":428,"type":"text","text":"Detail of the Display:\n* color, width, subplot, etc.\n* We can show actual data points with marker\n* Thickness with `linewidth`\nSubplot:\nSingle figure with multiple plot within it\n```\nplt.subplot(<row>, <column>, <edditing_postion>)\n```\n* If you are using subplots it is much better for your axis to have same scale\n* Histogram\n* Bar Plot (Distribution)\n\t* Transparency"}
+	],
+	"edges":[
+		{"id":"6a264e86f3c26342","fromNode":"199811474a59b82d","fromSide":"right","toNode":"ba191b72d7395c95","toSide":"left"},
+		{"id":"64a75484cd6e9c1c","fromNode":"ba191b72d7395c95","fromSide":"right","toNode":"b9e7e7aee7c7277f","toSide":"left"},
+		{"id":"f942741e686b0411","fromNode":"b9e7e7aee7c7277f","fromSide":"right","toNode":"0d68947964163a6a","toSide":"left"},
+		{"id":"62d3a814cf88bd93","fromNode":"0d68947964163a6a","fromSide":"right","toNode":"4c8cfe9b27321453","toSide":"left"},
+		{"id":"94f2605650af65ee","fromNode":"4c8cfe9b27321453","fromSide":"right","toNode":"207f4493147451ee","toSide":"left"},
+		{"id":"bdf5a98963a5243f","fromNode":"207f4493147451ee","fromSide":"right","toNode":"b522b409c187953a","toSide":"left"}
+	]
+}

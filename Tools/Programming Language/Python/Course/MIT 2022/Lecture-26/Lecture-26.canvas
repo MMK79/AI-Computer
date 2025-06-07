@@ -1,0 +1,32 @@
+{
+	"nodes":[
+		{"id":"1ca3d45a15f1cb50","type":"text","text":"Lecture-26","x":-550,"y":-82,"width":170,"height":60},
+		{"id":"edef99d689b796b1","type":"text","text":"Simulation","x":-181,"y":80,"width":250,"height":60},
+		{"id":"107ce91af21d274a","type":"text","text":"List in memory","x":-120,"y":-580,"width":250,"height":60},
+		{"id":"7e4620fa308204fd","type":"text","text":"Constant List:\nWhen you create a list with `len(L)` element in it, python initially allocates a contiguous memory blocks with `len(L)`\n* 1 bytes = 8 bits\n* List name point to the first memory location\n* to access i th element\n\t* add ix32 to the first location\n\t* access that location in memory\n\t* Constant type Complexity\n","x":300,"y":-901,"width":400,"height":321},
+		{"id":"a55a234970365301","type":"text","text":"Heterogenous List (contain different types of element):\n* We don't store values directly\n\t* Use indirection to reference other objects\n\t* Store Pointers to value (not value itself)\n* Use consecutive set of memory locations\n* Constant time complexity","x":300,"y":-531,"width":400,"height":295},
+		{"id":"67a818138326c1b4","type":"text","text":"Lists Complexity: `n` is `len(L)`\n* access: $\\Theta(1)$\n* store: $\\Theta(1)$\n* length: $\\Theta(1)$\n* append: $\\Theta(1)$\n* \\==: $\\Theta(n)$\n* delete: $\\Theta(n)$\n* copy: $\\Theta(n)$\n* reverse: $\\Theta(n)$\n* iteration: $\\Theta(n)$\n* in list: $\\Theta(n)$","x":820,"y":-757,"width":276,"height":355},
+		{"id":"e21db88d41c93dfe","type":"text","text":"What is the complexity to index into naive dictionary?\n* We don't know orders\n* Have to do linear search\nWhy Dictionaries are so Good Data Structures? Hashing","x":1180,"y":-681,"width":405,"height":202},
+		{"id":"9870d7c5f2f7ab9b","type":"text","text":"Dictionary Complexity: `n` is `len(D)`\n* Worst Case (very rare)\n\t* length: $\\Theta(n)$\n\t* access: $\\Theta(n)$\n\t* store: $\\Theta(n)$\n\t* delete: $\\Theta(n)$\n\t* iteration: $\\Theta(n)$\n* Average Case (very rare)\n\t* access: $\\Theta(1)$\n\t* store: $\\Theta(1)$\n\t* delete: $\\Theta(1)$\n\t* iteration: $\\Theta(1)$\n\t* in: $\\Theta(n)$","x":1680,"y":-783,"width":316,"height":408},
+		{"id":"d8bb451471305346","type":"text","text":"Dictionary Implementation:\n* Use a hash table\n\t* Like a long list, and it's indices is what you lookup when you lookup using hash function\nHow does it work?\n* Convert key to an integer - use hash function\n* Use that integer as the index into a list\n\t* Constant Time\n* Find value associated with key\n\t* Constant Time\n> [!important] Dictionary lookup is Constant time complexity if:\n> hash function is fast enough\n> indexing into a list is constant","x":2100,"y":-801,"width":554,"height":444},
+		{"id":"6007f4fd91916f7e","x":2740,"y":-681,"width":380,"height":204,"type":"text","text":"Python Hash function:\n`hash()` take a hashble object and return a number\nHow Big a hash table should be?\n* Unique hasshing\n* Allow Collision"},
+		{"id":"64415082e453ce49","x":3260,"y":-686,"width":641,"height":215,"type":"text","text":"Good Hash function and Hash table:\n* Maps domains of interest to integer between 0 and size of hash table\n* The hash value is fully determined by value being hashed (not random)\n* The hash function use the entire input to be hashed\n\t* Fewer Collision\n* Distribution of values is uniform (equally to land on any entry in hash table)"},
+		{"id":"571468aff35a1530","x":180,"y":-47,"width":553,"height":315,"type":"text","text":"* Computationally describe the world by using randomness\n* One very important topic relevant to many fields of study:\n\t* Risk modeling and analysis\n\t* Reduce Complex models\n* Idea:\n\t* Observe and event and want to calculate something about it\n\t* Using computation, design an experiment of that event\n\t* Repeat the experiment K times\n\t* Keep track of outcome of your event\n\t* After K repetition, report the K value of interest"},
+		{"id":"9e1f88d950105301","x":820,"y":68,"width":519,"height":86,"type":"text","text":"Doing simulation for a little problem is kind of useless, simulation power show itself when you use it to approximate things for big problems that can't be mathematically done $\\rightarrow$ machine learning"}
+	],
+	"edges":[
+		{"id":"6d53b05dfeabe428","fromNode":"1ca3d45a15f1cb50","fromSide":"right","toNode":"107ce91af21d274a","toSide":"left"},
+		{"id":"32279e7fd4a3a0be","fromNode":"1ca3d45a15f1cb50","fromSide":"right","toNode":"edef99d689b796b1","toSide":"left"},
+		{"id":"ee22f62732fbe21c","fromNode":"107ce91af21d274a","fromSide":"right","toNode":"7e4620fa308204fd","toSide":"left"},
+		{"id":"614067ff0290dd64","fromNode":"107ce91af21d274a","fromSide":"right","toNode":"a55a234970365301","toSide":"left"},
+		{"id":"26ea898c81d3ae25","fromNode":"a55a234970365301","fromSide":"right","toNode":"67a818138326c1b4","toSide":"left"},
+		{"id":"6a1af3e31a9091cf","fromNode":"7e4620fa308204fd","fromSide":"right","toNode":"67a818138326c1b4","toSide":"left"},
+		{"id":"6e60217522bb3e31","fromNode":"67a818138326c1b4","fromSide":"right","toNode":"e21db88d41c93dfe","toSide":"left"},
+		{"id":"cc01443e4fc519aa","fromNode":"e21db88d41c93dfe","fromSide":"right","toNode":"9870d7c5f2f7ab9b","toSide":"left"},
+		{"id":"1d5cc0d4715f7453","fromNode":"9870d7c5f2f7ab9b","fromSide":"right","toNode":"d8bb451471305346","toSide":"left"},
+		{"id":"6505479d3d56d8cf","fromNode":"d8bb451471305346","fromSide":"right","toNode":"6007f4fd91916f7e","toSide":"left"},
+		{"id":"fc6bcc2ae8590c5a","fromNode":"6007f4fd91916f7e","fromSide":"right","toNode":"64415082e453ce49","toSide":"left"},
+		{"id":"11f04d7e70f93143","fromNode":"edef99d689b796b1","fromSide":"right","toNode":"571468aff35a1530","toSide":"left"},
+		{"id":"bf5298896ca9269b","fromNode":"571468aff35a1530","fromSide":"right","toNode":"9e1f88d950105301","toSide":"left"}
+	]
+}

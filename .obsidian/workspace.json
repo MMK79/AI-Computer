@@ -11,14 +11,17 @@
             "id": "cc0486de04985eef",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "README.md",
-                "mode": "source",
-                "source": false
+                "file": "Artificial Intelligence/Large Language Models/Course/3Blue1Brown/DL-0.canvas",
+                "viewState": {
+                  "x": -7048.97499725918,
+                  "y": -2522.3249999076124,
+                  "zoom": 0
+                }
               },
-              "icon": "lucide-file",
-              "title": "README"
+              "icon": "lucide-layout-dashboard",
+              "title": "DL-0"
             }
           }
         ]
@@ -167,6 +170,14 @@
   },
   "active": "cc0486de04985eef",
   "lastOpenFiles": [
+    "Artificial Intelligence/Large Language Models/Course/3Blue1Brown/Attachements/LLM-BlackBox.md",
+    "Artificial Intelligence/Large Language Models/Course/3Blue1Brown/Attachements",
+    "Artificial Intelligence/Large Language Models/Course/3Blue1Brown/3Blue1Brown LLM Content List.md",
+    "Artificial Intelligence/Large Language Models/Course/3Blue1Brown/DL-0.canvas",
+    "README.md",
+    "Artificial Intelligence/Large Language Models/Course/3Blue1Brown",
+    "Artificial Intelligence/Large Language Models/Course",
+    "Artificial Intelligence/Large Language Models",
     "Code-Download-Zip.png",
     "Attachments",
     "Content List.md",
@@ -181,17 +192,12 @@
     "Tools/Programming Language/Python/Course/MIT 2022/Lecture-20/Lecture-20.canvas",
     "Tools/Programming Language/Python/Course/MIT 2022/Lecture-19/Lecture-19.canvas",
     "Tools/Programming Language/Python/Course/MIT 2022/Lecture-18/Lecture-18.canvas",
-    "Tools/Programming Language/Python/Course/MIT 2022/Lecture-17/Lecture-17.canvas",
     "Tools/Programming Language/Python/Course/MIT 2022/Lecture-04/Guess-and-Check-Implementation-Comparison.md",
     "Tools/Programming Language/Python/Course/MIT 2022/Lecture-26/lecture-26.ipynb",
     "Tools/Programming Language/Python/Course/MIT 2022/Lecture-26",
     "Tools/Programming Language/Python/Course/MIT 2022/Lecture-25/lecture-25.ipynb",
     "Tools/Programming Language/Python/Course/MIT 2022/Lecture-25/USPopulation.txt",
     "Tools/Programming Language/Python/Course/MIT 2022/Lecture-25/CountryPops.txt",
-    "Tools/Programming Language/Python/Course/MIT 2022/Lecture-25",
-    "Tools/Programming Language/Python/Course/MIT 2022/Lecture-24/lecture-24.ipynb",
-    "Tools/Programming Language/Python/Course/MIT 2022/Lecture-24",
-    "Tools/Programming Language/Python/Course/MIT 2022/Lecture-23/lecture-23.ipynb",
     "Tools/Programming Language/Python/Course/MIT 2022/Lecture-22/Class_of_Algorithms.md",
     "Tools/Database/Course/CS50/CS50-Content-list.md",
     "Tools/Database/Course/CS50/Lecture-0/Query Cheat Sheet.md",
@@ -211,8 +217,6 @@
     "Artificial Intelligence/Artificial Intelligence Content List.md",
     "Artificial Intelligence/Machine Learning/Course/Yaser Abu-Mostafa - Caltech/Abu Yaser-Mostafa Course Content List.md",
     "Artificial Intelligence/Machine Learning/Course/Machine Learning Courses Content List.md",
-    "Artificial Intelligence/Machine Learning/Machine Learning Content List.md",
-    "Artificial Intelligence/Machine Learning/Course/Yaser Abu-Mostafa - Caltech/Lecture-01/Lecture-01.md",
     "Artificial Intelligence/Machine Learning/Course/Yaser Abu-Mostafa - Caltech/Lecture-01/Attachments/Components-of-learning.png",
     "Artificial Intelligence/Machine Learning/Course/Yaser Abu-Mostafa - Caltech/Lecture-01/Attachments/Learning-Diagram.png",
     "Artificial Intelligence/Machine Learning/Course/Yaser Abu-Mostafa - Caltech/Lecture-01/Attachments/Inner-Product.png",
@@ -221,7 +225,6 @@
     "Master/Thesis/attachments/Quality-&-Context-ArtificialAnalysis.png",
     "Master/Thesis/attachments/MaximumTruth-AI-IQtest.png",
     "Master/Thesis/Thesis References/RL in Education/Reddy - Accelerating Human Learning/Pasted image 20240817152448.png",
-    "Master/Thesis/Basic Datas/Local Datas/IranStaticalOrganization/attachments/Teacher-Per-Student.png",
-    "Master/Informative/Guid for Read & Write Paper/attachments/Bloom's Taxonomy.png"
+    "Master/Thesis/Basic Datas/Local Datas/IranStaticalOrganization/attachments/Teacher-Per-Student.png"
   ]
 }

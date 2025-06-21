@@ -11,17 +11,14 @@
             "id": "cc0486de04985eef",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "Artificial Intelligence/Large Language Models/Course/3Blue1Brown/DL-5.canvas",
-                "viewState": {
-                  "x": 6890,
-                  "y": 2315.5,
-                  "zoom": -3.926245243691884
-                }
+                "file": "Tools/Programming Language/Python/Course/FM Practical Python/Practical-Python-Content-List.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "DL-5"
+              "icon": "lucide-file",
+              "title": "Practical-Python-Content-List"
             }
           }
         ]
@@ -170,8 +167,17 @@
   },
   "active": "cc0486de04985eef",
   "lastOpenFiles": [
-    "Artificial Intelligence/Large Language Models/Course/3Blue1Brown/DL-0.canvas",
+    "Tools/Programming Language/Python/Course/FM Practical Python/Chapters/1-Why Python.md",
+    "Tools/Programming Language/Python/Course/FM Practical Python/Practical-Python-Content-List.md",
+    "Tools/Programming Language/Python/Course/FM Practical Python/Chapters/4-Function, Loops, Programming Logic.md",
+    "Tools/Programming Language/Python/Course/FM Practical Python/Chapters/3-Set, Tuples, Dictionaries.md",
+    "Tools/Programming Language/Python/Course/FM Practical Python/Chapters/2-Data Types.md",
+    "Tools/Programming Language/Python/Course/FM Practical Python/Chapters/0-Python REPL.md",
+    "Tools/Programming Language/Python/Course/FM Practical Python/Chapters/0-Course Setup.md",
     "Artificial Intelligence/Large Language Models/Course/3Blue1Brown/DL-5.canvas",
+    "Tools/Programming Language/Python/Course/FM Practical Python/Chapters",
+    "Tools/Programming Language/Python/Course/FM Practical Python",
+    "Artificial Intelligence/Large Language Models/Course/3Blue1Brown/DL-0.canvas",
     "Artificial Intelligence/Large Language Models/Course/3Blue1Brown/Attachements/LLM-BlackBox.md",
     "Artificial Intelligence/Large Language Models/Course/3Blue1Brown/Attachements",
     "Artificial Intelligence/Large Language Models/Course/3Blue1Brown/3Blue1Brown LLM Content List.md",
@@ -192,13 +198,10 @@
     "Tools/Programming Language/Python/Course/MIT 2022/Lecture-21/Lecture-21.canvas",
     "Tools/Programming Language/Python/Course/MIT 2022/Lecture-20/Lecture-20.canvas",
     "Tools/Programming Language/Python/Course/MIT 2022/Lecture-19/Lecture-19.canvas",
-    "Tools/Programming Language/Python/Course/MIT 2022/Lecture-18/Lecture-18.canvas",
     "Tools/Programming Language/Python/Course/MIT 2022/Lecture-04/Guess-and-Check-Implementation-Comparison.md",
     "Tools/Programming Language/Python/Course/MIT 2022/Lecture-26/lecture-26.ipynb",
     "Tools/Programming Language/Python/Course/MIT 2022/Lecture-26",
     "Tools/Programming Language/Python/Course/MIT 2022/Lecture-25/lecture-25.ipynb",
-    "Tools/Programming Language/Python/Course/MIT 2022/Lecture-25/USPopulation.txt",
-    "Tools/Programming Language/Python/Course/MIT 2022/Lecture-25/CountryPops.txt",
     "Tools/Programming Language/Python/Course/MIT 2022/Lecture-22/Class_of_Algorithms.md",
     "Tools/Database/Course/CS50/CS50-Content-list.md",
     "Tools/Database/Course/CS50/Lecture-0/Query Cheat Sheet.md",
@@ -210,13 +213,6 @@
     "Tools/Editor/NeoVim-Primeagen.md",
     "Tools/Editor/NeoVim.md",
     "Tools/Programming Language/Python/Course/MIT 2022/Lecture-03/While Loop.md",
-    "CS Concepts/Distributed System/Docker/Docker-Workflow.md",
-    "Tools/Programming Language/Python/Course/MIT 2022/Lecture-02/Indexing.md",
-    "Tools/Programming Language/Python/Course/MIT 2022/Lecture-02/if-else-elif.md",
-    "CS Concepts/Distributed System/Docker/Difference-Between-VM-VE-Container.md",
-    "CS Concepts/Distributed System/Docker/Docker.md",
-    "Artificial Intelligence/Artificial Intelligence Content List.md",
-    "Artificial Intelligence/Machine Learning/Course/Yaser Abu-Mostafa - Caltech/Abu Yaser-Mostafa Course Content List.md",
     "Artificial Intelligence/Machine Learning/Course/Yaser Abu-Mostafa - Caltech/Lecture-01/Attachments/Components-of-learning.png",
     "Artificial Intelligence/Machine Learning/Course/Yaser Abu-Mostafa - Caltech/Lecture-01/Attachments/Learning-Diagram.png",
     "Artificial Intelligence/Machine Learning/Course/Yaser Abu-Mostafa - Caltech/Lecture-01/Attachments/Inner-Product.png",

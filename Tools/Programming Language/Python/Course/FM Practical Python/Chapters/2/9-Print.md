@@ -1,0 +1,1 @@
+* You can print multiple things together with `,` separate them

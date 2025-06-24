@@ -1,0 +1,1 @@
+You can define variable, without it having any value (good initializer)

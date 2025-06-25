@@ -11,10 +11,14 @@
             "id": "76e42d4cc853842e",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Tools/Programming Language/Python/Course/FM Practical Python/Practical-Python-Content-list.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Practical-Python-Content-list"
             }
           }
         ]
@@ -163,9 +167,15 @@
   },
   "active": "76e42d4cc853842e",
   "lastOpenFiles": [
+    "Tools/Programming Language/Python/Course/FM Practical Python/Chapters/6-Object Oriented Python.md",
+    "Tools/Programming Language/Python/Course/FM Practical Python/Chapters/6-Object Oriented Python.md",
+    "Tools/Programming Language/Python/Course/FM Practical Python/Chapters/6/4-Tracebacks & Exceptions.md",
+    "Tools/Programming Language/Python/Course/FM Practical Python/Chapters/6/3-Inheritance.md",
+    "Tools/Programming Language/Python/Course/FM Practical Python/Chapters/6/2-Class Methods.md",
+    "Tools/Programming Language/Python/Course/FM Practical Python/Chapters/6/1-Object Oriented Programming (OOP).md",
+    "Tools/Programming Language/Python/Course/FM Practical Python/Chapters/6",
     "Tools/Programming Language/Python/Course/FM Practical Python/Chapters/1-Why Python.md",
     "Tools/Programming Language/Python/Course/FM Practical Python/Practical-Python-Content-list.md",
-    "Tools/Programming Language/Python/Course/FM Practical Python/Chapters/6-Object Oriented Python.md",
     "Tools/Programming Language/Python/Course/FM Practical Python/Chapters/4-Function, Loops, Programming Logic.md",
     "Tools/Programming Language/Python/Course/FM Practical Python/Chapters/2-Data Types.md",
     "Tools/Programming Language/Python/Course/FM Practical Python/Chapters/0/1-Course Setup.md",
@@ -186,12 +196,7 @@
     "Tools/Programming Language/Python/Course/FM Practical Python/Chapters/2/1-Dynamic Language.md",
     "Tools/Programming Language/Python/Course/FM Practical Python/Chapters/2",
     "Tools/Programming Language/Python/Course/FM Practical Python/Chapters/3-Set, Tuples, Dictionaries.md",
-    "Tools/Programming Language/Python/Course/FM Practical Python/Chapters/3/3-Dictionaries.md",
-    "Tools/Programming Language/Python/Course/FM Practical Python/Chapters/3/2-Sets.md",
-    "Tools/Programming Language/Python/Course/FM Practical Python/Chapters/3/1-Tuples.md",
     "Tools/Programming Language/Python/Course/FM Practical Python/Chapters/3",
-    "Tools/Programming Language/Python/Course/FM Practical Python/Chapters/4/4-Loops.md",
-    "Tools/Programming Language/Python/Course/FM Practical Python/Chapters/4/3-Boolean Logic.md",
     "Tools/Programming Language/Python/Course/FM Practical Python/Chapters/4",
     "Tools/Programming Language/Python/Course/FM Practical Python/Chapters/1",
     "Tools/Programming Language/Python/Course/FM Practical Python/Chapters/0",
@@ -200,7 +205,6 @@
     "Tools/Programming Language/Python/Course/FM Practical Python",
     "Artificial Intelligence/Large Language Models/Course/3Blue1Brown/DL-0.canvas",
     "Artificial Intelligence/Large Language Models/Course/3Blue1Brown/Attachements",
-    "Artificial Intelligence/Large Language Models/Course/3Blue1Brown",
     "Code-Download-Zip.png",
     "Tools/Programming Language/Python/Course/MIT 2022/Lecture-26/Lecture-26.canvas",
     "Tools/Programming Language/Python/Course/MIT 2022/Lecture-25/Lecture-25.canvas",

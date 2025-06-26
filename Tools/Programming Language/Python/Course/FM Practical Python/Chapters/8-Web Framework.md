@@ -1,0 +1,5 @@
+[[1-What are Web Frameworks|What are Web Frameworks]]
+[[2-Django Interaction with Database|Django Interaction with Database]]
+[[3-Views, Routes, Templates|Views, Routes, Templates]]
+[[4-Django Admin|Django Admin]]
+[[5-Django Test|Django Test]]

@@ -1,0 +1,35 @@
+{
+	"nodes":[
+		{"id":"0553eb25e521e952","x":1920,"y":-280,"width":1616,"height":1220,"type":"group","label":"MLP Layers"},
+		{"id":"864a501fe153c6d5","x":-250,"y":-76,"width":91,"height":60,"type":"text","text":"Facts"},
+		{"id":"bb4e5b119f16abfe","x":-40,"y":-76,"width":250,"height":60,"type":"text","text":"Multi-Layer Perceptron"},
+		{"id":"731307623b5dbb3c","x":-40,"y":20,"width":580,"height":140,"type":"text","text":"How to know that vectors are align?\nDot Product them, closer to 1 means more align closer to 0 means that they won't align (you can have negative numbers, and numbers that are bigger than 1, but it doesn't matter at this moment)"},
+		{"id":"1733b02faa7b199d","x":300,"y":-76,"width":729,"height":60,"type":"text","text":"Operation inside MLP applied on (Original Vector) = New Vector (The Encoded Fact Direction)"},
+		{"id":"16a282e9176607a3","x":1220,"y":-76,"width":463,"height":60,"type":"text","text":"Original Vector + New Vector = Final Result of MLP Block"},
+		{"id":"924d86153a51251f","x":306,"y":-320,"width":717,"height":160,"type":"text","text":"<p><center>This will happen to all vectors in parallel</center></p>\n<p><center>+</center></p>\n<p><center>Operations apply to each Vector separately (Vectors won't talk to each other in the process)</p></center>"},
+		{"id":"3210a7dd6a205783","x":2740,"y":-78,"width":379,"height":50,"type":"text","text":"It is Linear, but human Language is not linear!"},
+		{"id":"841553672358fe9f","x":3240,"y":-78,"width":276,"height":50,"type":"text","text":"We want yes and no answer"},
+		{"id":"27e0fff805c7a55c","x":1940,"y":-260,"width":677,"height":440,"type":"text","text":"$$\n\\begin{bmatrix}\n-R_0- \\\\\n-R_1- \\\\\n\\vdots \\\\\n-R_n- \\\\\n\\end{bmatrix}\n\\begin{bmatrix}\n\\vec E\n\\end{bmatrix}\n+ \n\\begin{bmatrix}\n \\\\\n\\vec B \\\\\n \\\\\n\\end{bmatrix}\n=\n\\begin{bmatrix}\nR_0 . \\vec{E} + B_0\\\\\nR_1 . \\vec{E} + B_1\\\\\n\\vdots \\\\\nR_n . \\vec{E} + B_n\\\\\n\\end{bmatrix}\n$$\n$\\vec{E}$: Embedding Vector\n$\\vec{B}$: Bias Vector\n* Think of each $R_i . \\vec{E} + \\vec{B}_i$ is is answer for each Question\n* We Mapping to higher dimension space\n$$\\vec{Q}_{(4 \\times 12,288) \\times 12,288} . \\vec{E}_{12,288 \\times 1} + \\vec{B}_{(4 \\times 12,288) \\times 1} = \\vec{R}_{(4 \\times 12,288) \\times 1}$$\n* $\\vec{Q}$ as for Questions, and $\\vec{R}$ as for Result, but there is no such a thing in papers, it is just for better understanding\n* Why $4 \\times 12,288$? Have a clean multiple is more friendly for hardware\n* We can denote this as $W_{\\uparrow}$ cause it is increasing dimension"},
+		{"id":"6f8a02f2efcfbc5f","x":2027,"y":260,"width":504,"height":202,"type":"text","text":"ReLU (Rectified Linear Unit)\nNon-Linear Function (It is piece-wise-Linear)\nHow does it work?\nKeep the positive values the same, replace negatives with zero\n* It mimics the And Gate behavior\n* Often model use GeLU (Gaussian) which is a bit smoother"},
+		{"id":"c00fe36fe7cb4a8f","x":1984,"y":680,"width":590,"height":240,"type":"text","text":"$$\n\\begin{bmatrix}\n| & | & \\dots & |\\\\\nC_0 & C_1 & \\dots & C_n\\\\\n| & | & \\dots & |\\\\\n\\end{bmatrix}\n\\begin{bmatrix}\n\\vec N\n\\end{bmatrix}\n+ \n\\begin{bmatrix}\n \\\\\n\\vec B \\\\\n \\\\\n\\end{bmatrix}\n=\nE_0.C_0 + E_1.C_1 + \\dots + E_n.C_n + \\vec{B}\n$$\n* We can denote this as $W_{\\downarrow}$ cause it is down projection\n* If the Question that you asked in the first linear operation got an yes answer (active neuron) now think of column as a lead to rich the answer"},
+		{"id":"ce2fea492415dd74","x":2154,"y":520,"width":250,"height":86,"type":"text","text":"Neurons:\nPositive = Active\nZeros = Non-Active"},
+		{"id":"0b2d3033cb8f0256","x":3707,"y":272,"width":413,"height":120,"type":"text","text":"$$\\vec{E}\\overset{\\text{MLP Layer}}{( \\xrightarrow[\\vec{W_{\\uparrow}.\\vec{E} + \\vec{B}}]{Linear} [\\ ] \\xrightarrow[]{ReLU} [\\ ] \\xrightarrow[\\vec{W_{\\downarrow}.\\vec{E} + \\vec{B}}]{Linear} [\\ ])} \\xrightarrow{E_i + [\\ ]} result$$"},
+		{"id":"c336a4b832106909","x":2279,"y":1080,"width":877,"height":280,"type":"text","text":"Super Position Hypothesis Explain:\n* Why model hards to interpret\n* Why the Scale\nIf you have N dimension Space, and you want represent bunch of features using directions that perpendicular ($90\\degree$)(add component to one direction won't affect others) $\\rightarrow$ Maximum Vector = N \n\nNow if you loose up your constant from $90\\degree$ to between $89\\degree$ and $91\\degree$ it will make a big difference in high dimensions $\\rightarrow$ Johnson-LindenStrauss Lemma $\\rightarrow$ Maximum number of vectors = $e^N$ $\\rightarrow$ Base on this LLM can store more idea in a small space $\\rightarrow$ Sparse Auto-encoder (Interpretability in AI tool)"}
+	],
+	"edges":[
+		{"id":"0b8c0c4c820a957d","fromNode":"864a501fe153c6d5","fromSide":"right","toNode":"bb4e5b119f16abfe","toSide":"left","label":"Stored in"},
+		{"id":"2716976201b146f0","fromNode":"864a501fe153c6d5","fromSide":"right","toNode":"731307623b5dbb3c","toSide":"left","label":"Assumption"},
+		{"id":"5dc8e4572f254950","fromNode":"bb4e5b119f16abfe","fromSide":"right","toNode":"1733b02faa7b199d","toSide":"left","label":"How?"},
+		{"id":"4a9ed4bde76db696","fromNode":"1733b02faa7b199d","fromSide":"right","toNode":"16a282e9176607a3","toSide":"left","label":"What happen?"},
+		{"id":"10f38472c6d589dd","fromNode":"1733b02faa7b199d","fromSide":"top","toNode":"924d86153a51251f","toSide":"bottom","label":"In Which Environment?"},
+		{"id":"5f60c2992d78a99f","fromNode":"16a282e9176607a3","fromSide":"right","toNode":"27e0fff805c7a55c","toSide":"left","label":"Embedding\nVector as\nInput"},
+		{"id":"e6a35acfe7531807","fromNode":"27e0fff805c7a55c","fromSide":"right","toNode":"3210a7dd6a205783","toSide":"left","label":"Problem"},
+		{"id":"eff974a6415b2a4a","fromNode":"3210a7dd6a205783","fromSide":"right","toNode":"841553672358fe9f","toSide":"left","label":"Solution"},
+		{"id":"9efb883ba4617624","fromNode":"841553672358fe9f","fromSide":"bottom","toNode":"6f8a02f2efcfbc5f","toSide":"right","label":"Solution\nImplementation"},
+		{"id":"d502ab02bd235256","fromNode":"27e0fff805c7a55c","fromSide":"bottom","toNode":"6f8a02f2efcfbc5f","toSide":"top","label":"Input"},
+		{"id":"45f251393d879d49","fromNode":"6f8a02f2efcfbc5f","fromSide":"bottom","toNode":"ce2fea492415dd74","toSide":"top","label":"Output"},
+		{"id":"e97d3687ca38da2e","fromNode":"ce2fea492415dd74","fromSide":"bottom","toNode":"c00fe36fe7cb4a8f","toSide":"top","label":"Input"},
+		{"id":"03d2c552257176ee","fromNode":"0553eb25e521e952","fromSide":"right","toNode":"0b2d3033cb8f0256","toSide":"left","label":"Summary"},
+		{"id":"2e08fc4a4d666142","fromNode":"0553eb25e521e952","fromSide":"bottom","toNode":"c336a4b832106909","toSide":"top","label":"Single Neuron rarely represent single feature"}
+	]
+}

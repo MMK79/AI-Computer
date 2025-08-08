@@ -4,3 +4,15 @@ Lecture 00:
 Lecture 01:
 * [[Lecture-01]]
 * [[Lecture-01-Summery.canvas|Lecture-01-Summery]]
+Lecture 02:
+* [[Lecture-02]]
+* [[Lecture-02-Summery.canvas|Lecture-02-Summery]]
+Lecture 03:
+* [[Lecture-03]]
+* [[Lecture-03-Summery.canvas|Lecture-03-Summery]]
+Lecture 04:
+* [[Lecture-04]]
+* [[Lecture-04-Summery.canvas|Lecture-04-Summery]]
+Lecture 05:
+* [[Lecture-05]]
+* [[Lecture-05-Summery.canvas|Lecture-05-Summery]]

@@ -1,16 +1,14 @@
 # Contain my Summaries on AI and Computer Topics
-This repo contain more of a General Videos and Content that I read
-My Telegram Channel for Updates
-[@NotebyMasoud](https://t.me/NotebyMasoud)
-
-[My Linkedin](www.linkedin.com/in/masoud-mohararzadeh-859b26195)
-
-[My X account](https://x.com/MMohararzazdeh)
+This repo contain more of a General Videos and Content that I read <br>
+My Telegram Channel for Updates <br>
+[@NotebyMasoud](https://t.me/NotebyMasoud)<br>
+[My Linkedin](www.linkedin.com/in/masoud-mohararzadeh-859b26195)<br>
+[My X account](https://x.com/MMohararzazdeh)<br>
 # How to Use it:
 ## Simple Version:
 * Open this files with [Obsidian](https://obsidian.md/download)
   * [Enable Community Plugins in Obsidian](https://help.obsidian.md/Extending+Obsidian/Community+plugins) 
-## Easy for News:
+## Easy for Newbie:
 1. On top right of the current site there is <> Code, click on it.
 ![[Code-Download-Zip.png]]
 2. On the Open menu Click download ZIP
@@ -42,5 +40,16 @@ My Telegram Channel for Updates
 6. Click Trust Author on pop up
 7. Use the vault, Have fun!
 
+# Obsidian Plugins
+* Excalidraw (Must be Installed)
+* Extended MathJax (Must be Installed)
+* Highlightr (Must be Installed)
+* Imgur
+* MathLinks
+* Omnisearch
+* Outliner
+* Quick Latex
+* Relative Line Numbers
+* Underline (Must be Installed)
 # Content List
 Check the Content List.md for getting access to the contents
